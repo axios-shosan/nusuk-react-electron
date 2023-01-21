@@ -8,22 +8,25 @@ export default function Home() {
     <div className={`${styles.container}`}>
       <div className={styles.textContainer}>
         <p className={styles.homeTitle}>
-          Welcome To Nusuk your offical guide tomakkah and madina
+          Welcome To Nusuk your offical guide to makkah and madina
         </p>
       </div>
       <div className={styles.footer}>
-        <Button
-          active
-          type="submit"
-          onClick={() => {
-            navigate('/tmp');
-          }}
-        >
-          Hello
-        </Button>
-        <Button>Hello</Button>
-        <Button>Hello</Button>
-        <Button>Hello</Button>
+        <div className={`${styles.buttonsRow}`}>
+          <Button
+            active
+            type="submit"
+            onClick={() => {
+              navigate('/tmp');
+            }}
+          >
+            About Nusuk
+          </Button>
+          <Button>Umrah & Ziyarah</Button>
+          <Button>Makkah</Button>
+          <Button>Madina</Button>
+          <Button>Packages & Offers</Button>
+        </div>
       </div>
     </div>
   );

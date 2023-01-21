@@ -34,13 +34,13 @@
 }
 
 .textContainer {
-  margin-top: 17em;
+  margin-top: 20em;
   margin-left: 20px;
-  width: 600px;
+  width: 1000px;
   height: 100%;
 }
 .homeTitle {
-  font-size: 2em;
+  font-size: 3em;
   font-weight: bolder;
   animation: fadeIn 5s;
 }
@@ -54,18 +54,25 @@
 }
 
 .footer {
-  height: 33vh;
+  height: 270px;
   width: 100vw;
   position: absolute;
   bottom: 0;
   margin-bottom: 0;
   background-image: url('../../../../assets/images/home/home-waves.png');
   background-position: bottom; /* Center the image */
-  background-size: cover; /* Resize the background image to cover the entire container  */
+  background-size: 100% 100%; /* Resize the background image to cover the entire container  */
   background-repeat: no-repeat; /* Do not repeat the image */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.buttonsRow {
   display: inline-flex;
   flex-direction: row;
-  gap: 16px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 40px;
 }
