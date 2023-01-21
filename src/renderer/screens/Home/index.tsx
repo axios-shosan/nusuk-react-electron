@@ -1,5 +1,5 @@
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import Button from 'renderer/components/Button';
 import styles from './style.module.css';
 
 export default function Home() {
@@ -19,24 +19,18 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.footer}>
-        <button
+        <Button
+          active
           type="submit"
-          className={` ${styles.button} ${styles.active}`}
           onClick={() => {
             navigate('/tmp');
           }}
         >
           Hello
-        </button>
-        <button type="submit" className={styles.button}>
-          Hello
-        </button>
-        <button type="submit" className={styles.button}>
-          Hello
-        </button>
-        <button type="submit" className={styles.button}>
-          Hello
-        </button>
+        </Button>
+        <Button>Hello</Button>
+        <Button>Hello</Button>
+        <Button>Hello</Button>
       </div>
     </div>
   );
