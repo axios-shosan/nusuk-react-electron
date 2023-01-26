@@ -1,0 +1,141 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #2e3438;
+ 
+  position: relative;
+ 
+  
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+
+@keyframes bgFadeIn {
+  0% {
+  }
+
+  100% {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+  }
+}
+
+.navbar {
+  background-color: #23282c;
+  opacity: 0.7;
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  height: 33vh;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  background-image: url('../../../../assets/images/home/home-waves.png');
+  background-position: bottom; /* Center the image */
+  background-size: cover; /* Resize the background image to cover the entire container  */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  display: inline-flex;
+  flex-direction: row;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.textContainer {
+  margin-top: 17em;
+  margin-left: 20px;
+  width: 600px;
+  height: 100%;
+}
+.homeTitle {
+  font-size: 2em;
+  font-weight: bolder;
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.button {
+  display: inline-block;
+  background-color: #23282c;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: solid #b49164 2px;
+  font-size: 1.3rem;
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+  margin: 0;
+  font-size: 15px;
+  width: 160px;
+  height: 40px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.button:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #23282c;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: darken(#23282c, 15%);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+  transform: scale(105%);
+}
+.button:hover:before {
+  width: 100%;
+}
+
+.active {
+  background-color: #b49164;
+  color: #23282c;
+}
+.active:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #b49164;
+  border-radius: 10rem;
+  z-index: -2;
+}
