@@ -14,7 +14,11 @@ function Header() {
   const navigate = useNavigate();
 
   const mainHeading = useLocation().pathname.split('/')[1];
-  const subHeading = '';
+  const subHeading =
+    mainHeading === 'Umrah & Ziyarah'
+      ? 'All you need to know about Rituals to perform in Umrah and Ziarah Al Masjid An Nawabi'
+      : '';
+
   return (
     <header className={styles.wrapper}>
       <img src={logo} alt="Nusuk logo" className={styles.logo} />
@@ -22,7 +26,7 @@ function Header() {
         <h1>{mainHeading}</h1>
         <p>{subHeading}</p>
       </div>
-      <Button onClick={() => navigate('Umrash & Ziyarah/About')}>Home</Button>
+      <Button onClick={() => navigate('Umrah & Ziyarah/About')}>Home</Button>
     </header>
   );
 }

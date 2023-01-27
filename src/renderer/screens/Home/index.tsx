@@ -10,7 +10,7 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.footer}>
-        <Link to="Umrah & Ziyarah/About">Umrah & ziyarah</Link>
+        <Link to="Umrah & Ziyarah">Umrah & ziyarah</Link>
       </div>
     </div>
   );
