@@ -10,6 +10,9 @@ module.exports = {
     'react/button-has-type': 'off',
     'react/require-default-props': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
+    '@typescript-eslint/ban-types': 'off',
+    'no-empty-pattern': 'off',
+    'react/no-array-index-key': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,
