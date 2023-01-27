@@ -1,4 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 import Home from './screens/Home';
 import './App.css';
 import Header from './components/Header';
@@ -15,6 +16,7 @@ export default function App() {
             <Route path="About" element={<UmrahZiyarah />} />
           </Route>
         </Routes>
+        <Footer />
       </Router>
     </>
   );

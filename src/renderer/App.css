@@ -23,6 +23,27 @@ body {
   font-family: sans-serif;
   overflow-y: hidden;
 }
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
 @font-face {
   font-family: Displace-Medium;
   src: url('../Fonts/Displace/Displace20-Medium.0d89bcfd.ttf')
