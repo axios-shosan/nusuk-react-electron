@@ -1,19 +1,21 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import './App.css';
-import Home from './screens/Home';
-import Tmp from './screens/tmp';
 import NavBar from './components/NavBar';
+import Home from './screens/Home';
+import './App.css';
+import Page1 from './screens/Page1';
 
 export default function App() {
   return (
-    <div>
-      <NavBar />
+    <>
       <Router>
+        <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/tmp" element={<Tmp />} />
+          <Route path="Umrah & Ziyarah">
+            <Route path="About" element={<Page1 />} />
+          </Route>
         </Routes>
       </Router>
-    </div>
+    </>
   );
 }

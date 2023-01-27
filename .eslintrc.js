@@ -9,6 +9,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 'off',
     'react/button-has-type': 'off',
     'react/require-default-props': 'off',
+    '@typescript-eslint/no-non-null-assertion': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,
