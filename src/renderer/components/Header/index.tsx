@@ -27,13 +27,7 @@ function Header() {
         <h1>{mainHeading}</h1>
         <p>{subHeading}</p>
       </div>
-      <Button
-        active
-        icon={homeIcon}
-        onClick={() => navigate('Umrah & Ziyarah/About')}
-      >
-        Home
-      </Button>
+      <Button onClick={() => navigate('Umrah & Ziyarah/About')}>Home</Button>
     </header>
   );
 }

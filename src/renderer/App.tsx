@@ -1,5 +1,5 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import Footer from './components/Footer';
+import Footer from './components/FooterContainer';
 import Home from './screens/Home';
 import './App.css';
 import Header from './components/Header';
