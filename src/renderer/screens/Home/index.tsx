@@ -1,9 +1,7 @@
-import { useNavigate } from 'react-router-dom';
-import Button from 'renderer/components/Button';
+import { Link } from 'react-router-dom';
 import styles from './style.module.css';
 
 export default function Home() {
-  const navigate = useNavigate();
   return (
     <div className={`${styles.container}`}>
       <div className={styles.textContainer}>
@@ -12,18 +10,7 @@ export default function Home() {
         </p>
       </div>
       <div className={styles.footer}>
-        <Button
-          active
-          type="submit"
-          onClick={() => {
-            navigate('/tmp');
-          }}
-        >
-          Hello
-        </Button>
-        <Button>Hello</Button>
-        <Button>Hello</Button>
-        <Button>Hello</Button>
+        <Link to="Umrah & Ziyarah/About">Umrah & ziyarah</Link>
       </div>
     </div>
   );
