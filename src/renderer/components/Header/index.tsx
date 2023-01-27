@@ -4,7 +4,6 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import logo from '../../../Images/logonusuk.png';
 import Button from '../Button';
 import styles from './styles.module.css';
-import homeIcon from '../../../../assets/icons/home-icon.svg';
 
 // type HeaderProps = {
 //   mainHeading: string;
