@@ -4,6 +4,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import logo from '../../../Images/logonusuk.png';
 import Button from '../Button';
 import styles from './styles.module.css';
+import homeIcon from '../../../../assets/icons/home-icon.svg';
 
 // type HeaderProps = {
 //   mainHeading: string;
@@ -26,7 +27,13 @@ function Header() {
         <h1>{mainHeading}</h1>
         <p>{subHeading}</p>
       </div>
-      <Button onClick={() => navigate('Umrah & Ziyarah/About')}>Home</Button>
+      <Button
+        active
+        icon={homeIcon}
+        onClick={() => navigate('Umrah & Ziyarah/About')}
+      >
+        Home
+      </Button>
     </header>
   );
 }
