@@ -19,7 +19,7 @@ body {
   position: relative;
   color: white;
   height: 100vh;
-
+  background-color: #23282c;
   font-family: sans-serif;
   overflow-y: hidden;
 }

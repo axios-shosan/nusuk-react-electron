@@ -14,11 +14,37 @@
   font-family: Inter;
   line-height: 0;
   width: 220px;
-  height: 50px;
+  height: 57px;
   text-align: center;
   position: relative;
   overflow: hidden;
   z-index: 1;
+}
+
+.iconButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 175.55px;
+  height: 57px;
+  padding: 16px 41px 16px 41px;
+  font-weight: 700;
+  font-size: 21px;
+  text-align: end;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 25.36px;
+  border: solid #b49164 3px;
+}
+
+.textButton {
+  padding-top: 5px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
 }
 
 .button:after {

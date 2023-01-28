@@ -2,8 +2,6 @@
   background-color: rgba(180, 145, 100, 0.6);
   height: 120px;
   width: 760px;
-  position: absolute;
-  bottom: 20px;
   border-radius: 20px;
   padding: 15px 20px 15px 20px;
   display: flex;
@@ -11,6 +9,9 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
+  z-index: 1;
+  /* position: absolute; */
+  /* bottom: 20px; */
   /* left: 160px;
 top: 1762px; */
 }
@@ -32,6 +33,9 @@ top: 1762px; */
   padding-left: 8px;
   font-size: 10px;
   font-weight: 700;
+  transition: all ease-in 0.1s;
+  position: relative;
+  overflow: hidden;
 }
 
 .activeLink {
@@ -53,4 +57,48 @@ top: 1762px; */
   height: fit-content;
   margin: auto;
   margin-top: 2px;
+}
+
+.footerLink:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #23282c;
+  border-radius: 15px;
+  z-index: -2;
+}
+.footerLink:before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: darken(#23282c, 15%);
+  transition: all 0.2s;
+  border-radius: 15px;
+  z-index: -1;
+}
+
+.footerLink:active {
+  color: #fff;
+  transform: scale(105%);
+}
+.footerLink:active:before {
+  width: 100%;
+}
+
+.activeLink:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: #b49164;
+  border-radius: 15px;
+  z-index: -2;
 }
