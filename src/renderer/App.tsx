@@ -4,6 +4,7 @@ import Home from './screens/Home';
 import './App.css';
 import UmrahZiyarah from './screens/UmrahZiyarah';
 import Pillars from './screens/Pillars';
+import Makkah from './screens/Makkah';
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
             <Route path="About" element={<UmrahZiyarah />} />
             <Route path="pillars" element={<Pillars />} />
           </Route>
+          <Route path="Makkah" element={<Makkah />} />
         </Routes>
         <Footer />
       </Router>
