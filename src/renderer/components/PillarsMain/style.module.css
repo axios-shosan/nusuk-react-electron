@@ -1,0 +1,109 @@
+.container {
+  position: absolute;
+  top: 200px;
+  width: 100vw;
+}
+
+.pillarHeader {
+  font-family: Displace-Medium;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ebebeb;
+  margin-left: 60.14px;
+  margin-bottom: 53.58px;
+}
+
+.btnsRow {
+  width: fit-content;
+  margin-left: 194.5px;
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 29px;
+  margin-bottom: 117.5px;
+}
+
+.pillar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.shadow {
+  height: 400.3px;
+  width: 100vw;
+  bottom: 0;
+  position: absolute;
+}
+
+.shadow:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 40, 44, 0) -1.23%,
+    rgba(35, 40, 44, 0.660131) 57.43%,
+    rgba(35, 40, 44, 0.92) 79.29%,
+    #23282c 92.48%
+  );
+}
+
+.pillarContent {
+  width: 539.87px;
+  left: 456.92px;
+  margin-left: -120px;
+}
+
+.pillarTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55.014px;
+  line-height: 67px;
+  color: #b49164;
+  margin-bottom: 60px;
+}
+
+.content {
+  max-height: 624px;
+  overflow-y: scroll;
+  padding-right: 30px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.text {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.pillarImg {
+  width: auto;
+  height: 673.08px;
+  margin-top: 75px;
+}

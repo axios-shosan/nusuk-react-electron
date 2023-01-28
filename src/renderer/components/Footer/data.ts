@@ -14,7 +14,7 @@ const umrahData = [
     text: 'About Umrah',
   },
   {
-    link: 'pillars',
+    link: '/pillars',
     icon: PillarsIcon,
     alt: 'Pillars Of Umrah',
     text: 'Pillars Of Umrah',
