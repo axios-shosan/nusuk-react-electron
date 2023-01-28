@@ -7,12 +7,11 @@ type Props = {
 
 export default function Hero({ image }: Props) {
   return (
-    <div className={`${styles.container}`}>
-      <div className={styles.textContainer}>
-        <p className={styles.homeTitle}>
-          Welcome To Nusuk your offical guide to makkah and madina
-        </p>
+    <>
+      <div className={`${styles.container}`}>
+        <img src={image} alt="Hero" />
       </div>
-    </div>
+      <div className={styles.footer} />
+    </>
   );
 }

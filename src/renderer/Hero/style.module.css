@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+}
+.footer {
+  height: 270px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 0;
+  background-image: url('../../../assets/images/home/home-waves.png');
+  background-position: bottom;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(90deg, #0000, #fff, #0000);
+  mask-image: linear-gradient(90deg, #0000, #fff, #0000);
+  -webkit-mask-size: 300% 100%;
+  mask-size: 300% 100%;
+  animation: clip-fade 5s infinite alternate;
+  -webkit-mask-position: right;
+  mask-position: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+@keyframes clip-fade {
+  100% {
+    -webkit-mask-position: left;
+    mask-position: left;
+  }
+}
+
+.buttonsRow {
+  z-index: 2;
+  display: inline-flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
