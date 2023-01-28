@@ -16,6 +16,7 @@ export default function App() {
           </Route>
           <Route path="pillars" element={<Pillars />} />
         </Routes>
+        <Footer />
       </Router>
     </>
   );
