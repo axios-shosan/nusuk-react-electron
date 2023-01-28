@@ -8,7 +8,7 @@ import accessibilityIcon from '../../../../assets/icons/accessibility.svg';
 
 const umrahData = [
   {
-    link: '/',
+    link: '/umarh/about',
     icon: aboutIcon,
     alt: 'About Umrah',
     text: 'About Umrah',

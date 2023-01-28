@@ -11,7 +11,7 @@ export default function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="Umrah & Ziyarah">
+          <Route path="umrah">
             <Route path="About" element={<UmrahZiyarah />} />
           </Route>
           <Route path="pillars" element={<Pillars />} />
