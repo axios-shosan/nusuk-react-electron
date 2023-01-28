@@ -26,7 +26,7 @@ function Header() {
         <h1>{mainHeading}</h1>
         <p>{subHeading}</p>
       </div>
-      <Button onClick={() => navigate('Umrah & Ziyarah/About')}>Home</Button>
+      <Button onClick={() => navigate('Umrah & Ziyarah/Miqat')}>Home</Button>
     </header>
   );
 }

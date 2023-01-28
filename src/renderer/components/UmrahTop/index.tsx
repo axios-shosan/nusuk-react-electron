@@ -2,7 +2,7 @@ import image from '../../../Images/UmrahAboutTop.png';
 import waves from '../../../Images/Waves.png';
 import styles from './styles.module.css';
 
-function UmrahAboutTop() {
+function UmrahTop() {
   return (
     <div className={styles.wrapper}>
       <img src={waves} alt="waves" className={styles.wave} />
@@ -11,4 +11,4 @@ function UmrahAboutTop() {
   );
 }
 
-export default UmrahAboutTop;
+export default UmrahTop;
