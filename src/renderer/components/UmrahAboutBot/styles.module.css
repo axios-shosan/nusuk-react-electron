@@ -1,0 +1,26 @@
+.wrapper {
+  position: relative;
+  height: 365+95px;
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 40, 44, 0) 0%,
+    rgba(35, 40, 44, 0.75) 50%,
+    rgba(35, 40, 44, 0.9) 80%,
+    #23282c 95%
+  );
+}
+
+.wave {
+  position: absolute;
+  top: 215px;
+  z-index: 1000;
+}

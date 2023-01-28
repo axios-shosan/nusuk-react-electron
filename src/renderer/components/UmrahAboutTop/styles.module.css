@@ -1,0 +1,9 @@
+.wrapper {
+  position: relative;
+  height: fit-content;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+}
