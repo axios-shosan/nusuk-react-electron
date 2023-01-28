@@ -13,7 +13,7 @@ export default function FooterSection({}: Props) {
       <Link to="/">
         <Button icon={homeIcon}>Home</Button>
       </Link>
-      <Footer />;
+      <Footer />
     </div>
   );
 }
