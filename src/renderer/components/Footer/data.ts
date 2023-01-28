@@ -20,7 +20,7 @@ const umrahData = [
     text: 'Pillars Of Umrah',
   },
   {
-    link: 'miqat',
+    link: '/makkah',
     icon: miqatIcon,
     alt: 'Miqat',
     text: 'Miqat',

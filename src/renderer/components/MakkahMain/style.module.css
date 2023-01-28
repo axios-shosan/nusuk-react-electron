@@ -1,0 +1,106 @@
+.container {
+  width: 100vw;
+  margin-top: -70px;
+  position: relative;
+}
+
+.header {
+  font-family: Displace-Medium;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 47px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ebebeb;
+  margin-left: 35.4px;
+  margin-bottom: 53.58px;
+}
+
+.content {
+  display: flex;
+  margin: auto;
+  width: 920.17px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 28.8px;
+}
+
+.title {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 35.4px;
+  margin-bottom: 85.29px;
+  color: #b49164;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  margin-left: 44.58px;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 227.4px;
+  height: 365.6px;
+  background: #ffffff;
+  border-radius: 20px;
+}
+.cardContent {
+  margin-left: 18.78px;
+  margin-right: 18.78px;
+}
+
+.cardTitle {
+  font-family: Displace-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18.13px;
+  line-height: 22px;
+  color: #23282c;
+  margin-top: 13px;
+  margin-bottom: 10px;
+}
+
+.cardText {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13.1186px;
+  line-height: 16px;
+  color: #23282c;
+  opacity: 0.7;
+}
+
+.cardFooter {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 13.95px;
+  color: #b49164;
+}
+
+.divider::after {
+  content: '';
+  bottom: 41px;
+  position: absolute;
+  left: 33.7;
+  width: 160px;
+  height: 0px;
+  opacity: 0.2;
+  border: 1px solid #000000;
+}

@@ -6,6 +6,7 @@ import UmrahZiyarah from './screens/UmrahZiyarah';
 import Miqat from './screens/Miqat';
 import Pillars from './screens/Pillars';
 import Header from './components/Header';
+import Makkah from './screens/Makkah';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
             <Route path="Miqat" element={<Miqat />} />
             <Route path="pillars" element={<Pillars />} />
           </Route>
+          <Route path="Makkah" element={<Makkah />} />
         </Routes>
         <Footer />
       </Router>
