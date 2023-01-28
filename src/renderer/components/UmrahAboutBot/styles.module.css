@@ -1,6 +1,5 @@
 .wrapper {
   position: relative;
-  height: 365+95px;
 }
 
 .wrapper::after {
