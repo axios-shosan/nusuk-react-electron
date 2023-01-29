@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './style.module.css';
-import waves from '../../../assets/images/Waves.png';
+import waves from '../../../../assets/images/Waves.png';
 
 type Props = {
   image: string;
