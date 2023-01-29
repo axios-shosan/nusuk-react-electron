@@ -1,5 +1,4 @@
-import Header from 'renderer/components/Header';
-import UmrahAboutTop from 'renderer/components/UmrahAboutTop';
+import UmrahTop from 'renderer/components/UmrahTop';
 import UmrahAboutMain from 'renderer/components/UmrahAboutMain';
 import UmrahAboutBot from 'renderer/components/UmrahAboutBot';
 import styles from './styles.module.css';
@@ -7,8 +6,7 @@ import styles from './styles.module.css';
 function UmrahZiyarah() {
   return (
     <div className={styles.wrapper}>
-      <Header />
-      <UmrahAboutTop />
+      <UmrahTop />
       <UmrahAboutMain />
       <UmrahAboutBot />
     </div>

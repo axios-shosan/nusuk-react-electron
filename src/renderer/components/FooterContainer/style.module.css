@@ -8,5 +8,6 @@
   gap: 51px;
   position: absolute;
   bottom: 20px;
-  bottom: 158px;
+  bottom: 38px;
+  z-index: 10000;
 }

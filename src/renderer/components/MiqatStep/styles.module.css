@@ -1,0 +1,42 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 30px 0 0 30px;
+}
+
+.wrapper::before {
+  content: '';
+  position: absolute;
+  top: 60px;
+  left: 33px;
+  height: 90px;
+  width: 4px;
+  border-left: 5px dashed #B49164;
+  z-index: -1;
+}
+
+.wrapper p {
+  font-family: 'Inter';
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.num {
+  position: relative;
+  margin-right: 30px;
+}
+
+.num::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #B49164;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  z-index: -1;
+}

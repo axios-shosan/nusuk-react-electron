@@ -8,19 +8,19 @@ import accessibilityIcon from '../../../../assets/icons/accessibility.svg';
 
 const umrahData = [
   {
-    link: '/',
+    link: '/umarh/about',
     icon: aboutIcon,
     alt: 'About Umrah',
     text: 'About Umrah',
   },
   {
-    link: '/pillars',
+    link: '/Umrah & Ziyarah/pillars',
     icon: PillarsIcon,
     alt: 'Pillars Of Umrah',
     text: 'Pillars Of Umrah',
   },
   {
-    link: 'miqat',
+    link: '/makkah',
     icon: miqatIcon,
     alt: 'Miqat',
     text: 'Miqat',
