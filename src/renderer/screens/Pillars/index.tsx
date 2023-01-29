@@ -1,6 +1,6 @@
 import React from 'react';
 import PillarsMain from 'renderer/components/PillarsMain';
-import Hero from 'renderer/Hero';
+import Hero from 'renderer/components/Hero';
 import PillarHeroImg from '../../../../assets/images/pillars/pillarHero.png';
 
 type Props = {};
