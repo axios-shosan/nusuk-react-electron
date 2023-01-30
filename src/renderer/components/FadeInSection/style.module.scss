@@ -1,0 +1,10 @@
+.fadeInSection {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 4s ease;
+  will-change: opacity, visibility;
+}
+.fadeInSection.isVisible {
+  opacity: 1;
+  visibility: visible;
+}

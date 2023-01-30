@@ -1,0 +1,20 @@
+.heroContainer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.heroContainer h1 {
+  position: absolute;
+  font-family: Displace-Regular;
+  font-size: 50px;
+  margin-left: 120px;
+}
+/*# sourceMappingURL=style.module.css.map */

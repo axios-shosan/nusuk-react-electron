@@ -1,0 +1,13 @@
+.heroContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  h1 {
+    position: absolute;
+    font-family: Displace-Regular;
+    font-size: 50px;
+    margin-left: 120px;
+  }
+}

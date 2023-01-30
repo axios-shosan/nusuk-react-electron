@@ -1,5 +1,7 @@
 .pillarsWrapper {
-  padding: 3rem;
+  position: relative;
+  width: 974px;
+  background-color: #1d2225;
 }
 
 .pillarsWrapper .headerWrapper {
