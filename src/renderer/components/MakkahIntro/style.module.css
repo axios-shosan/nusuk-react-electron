@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  margin-left: 54px;
+  margin-top: -56px;
+  margin-bottom: 86px;
+  width: 974px;
+}
+
+.title {
+  height: 38px;
+  font-family: Displace-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #b29164;
+  margin-bottom: 28px;
+}
+
+.text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 133.02%;
+  color: #ffffff;
+  width: 969px;
+  opacity: 0.7;
+}
+
+.divider {
+  border: 0;
+  border: 1px solid #5d5d5d;
+  height: 0px;
+  margin-bottom: 28px;
+  animation: expand-divider 2s ease-out 1 forwards normal;
+}
+
+@keyframes expand-divider {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 900px;
+  }
+}

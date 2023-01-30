@@ -1,0 +1,34 @@
+.tabContent {
+  padding: 72px 53px;
+  background-color: #1d2225;
+  height: 788px;
+}
+
+.contentTitle {
+  font-family: Displace-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #b29164;
+  margin-bottom: 45px;
+}
+
+.divider {
+  border: 0;
+  border: 1px solid #5d5d5d;
+  height: 0px;
+  margin-bottom: 28px;
+  animation: expand-divider 2s ease-out 1 forwards normal;
+  margin-bottom: 50px;
+}
+
+@keyframes expand-divider {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 969px;
+  }
+}
