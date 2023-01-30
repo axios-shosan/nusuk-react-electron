@@ -32,8 +32,9 @@
 .divider {
   border: 0;
   width: 830px;
-  border: 1px solid #5d5d5d;
-  height: 0px;
+  /* border: 1px solid #5d5d5d; */
+  height: 1px;
+  background-color: #5d5d5d;
   margin: 28px 0;
   animation: expand-divider 2s ease-out 1 forwards normal;
 }
