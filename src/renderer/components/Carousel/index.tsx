@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react';
+import React, { ReactNode } from 'react';
 import classes from './style.module.css';
 import nextIcon from '../../../../assets/icons/nextCarousel.svg';
 import prevIcon from '../../../../assets/icons/prevCarousel.svg';
 
-export default function Carousel() {
+export default function Carousel({ content }: { content: ReactNode[] }) {
   const [activeSection, setActiveSection] = React.useState(0);
 
   const handleScroll = () => {
@@ -38,18 +38,11 @@ export default function Carousel() {
           handleScroll();
         }}
       >
-        <div className="slide" id="slide-0">
-          0
-        </div>
-        <div className="slide" id="slide-1">
-          1
-        </div>
-        <div className="slide" id="slide-2">
-          2
-        </div>
-        <div className="slide" id="slide-3">
-          3
-        </div>
+        {content.map((element, i) => (
+          <div className="slide" id={`slide${i}`}>
+            {element}
+          </div>
+        ))}
       </div>
       <div className={classes.scrollBtnsWrp}>
         <button
@@ -60,34 +53,15 @@ export default function Carousel() {
         >
           <img src={prevIcon} alt="Previous" />
         </button>
-        <a
-          className={classes.scrollBtn}
-          href="#slide-0"
-          onClick={() => {
-            handleLinkClick(0);
-          }}
-        />
-        <a
-          className={classes.scrollBtn}
-          href="#slide-1"
-          onClick={() => {
-            handleLinkClick(0);
-          }}
-        />
-        <a
-          className={classes.scrollBtn}
-          href="#slide-2"
-          onClick={() => {
-            handleLinkClick(0);
-          }}
-        />
-        <a
-          className={classes.scrollBtn}
-          href="#slide-3"
-          onClick={() => {
-            handleLinkClick(0);
-          }}
-        />
+        {content.map((_element, i) => (
+          <a
+            className={classes.scrollBtn}
+            href={`#slide-${i}`}
+            onClick={() => {
+              handleLinkClick(i);
+            }}
+          />
+        ))}
         <button
           className={`${classes.slideBtn} ${classes.nextBtn}`}
           onClick={() => {
