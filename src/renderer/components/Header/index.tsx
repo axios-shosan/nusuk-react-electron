@@ -1,23 +1,15 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-/* eslint-disable prettier/prettier */
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import logo from '../../../Images/logonusuk.png';
 import Button from '../Button';
 import styles from './styles.module.css';
 
-// type HeaderProps = {
-//   mainHeading: string;
-//   subHeading: string;
-// };
+type HeaderProps = {
+  mainHeading?: string;
+  subHeading?: string;
+};
 
-function Header() {
+function Header({ mainHeading, subHeading }: HeaderProps) {
   const navigate = useNavigate();
-
-  const mainHeading = useLocation().pathname.split('/')[1];
-  const subHeading =
-    mainHeading === 'Umrah & Ziyarah'
-      ? 'All you need to know about Rituals to perform in Umrah and Ziarah Al Masjid An Nawabi'
-      : '';
 
   return (
     <header className={styles.wrapper}>

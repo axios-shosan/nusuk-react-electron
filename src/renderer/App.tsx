@@ -1,14 +1,13 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import MakkahLayout from './components/layouts/MakkahLayout';
 import Home from './screens/Home';
-import Header from './components/Header';
-import Makkah from './screens/Makkah';
+// import Makkah from './screens/Makkah';
 
 export default function App() {
   return (
     <>
       <Router>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
 
@@ -22,7 +21,7 @@ export default function App() {
             <Route path="ziyarah" />
           </Route>
 
-          <Route path="makkah">
+          <Route path="makkah" element={<MakkahLayout />}>
             <Route path="accomodation" />
             <Route path="holy-sites" />
             <Route path="landmarks" />
@@ -38,7 +37,6 @@ export default function App() {
             <Route path="food-drinks" />
             <Route path="to-madina" />
           </Route>
-          <Route path="/makkah" element={<Makkah />} />
         </Routes>
       </Router>
     </>
