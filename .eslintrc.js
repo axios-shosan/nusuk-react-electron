@@ -15,6 +15,7 @@ module.exports = {
     'react/no-array-index-key': 'off',
     'jsx-a11y/anchor-has-content': 'off',
     'jsx-a11y/control-has-associated-label': 'off',
+    'jsx-a11y/no-static-element-interactions': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,
