@@ -36,8 +36,10 @@ function MakkahLayout() {
           outside the Kingdom.
         </p>
         <Navigation elements={tabs} />
-        <Outlet />
       </div>
+      <main className={styles.main}>
+        <Outlet />
+      </main>
     </>
   );
 }

@@ -17,7 +17,7 @@
   font-family: 'Displace-Medium';
   font-size: 40px;
   color: #b29164;
-  margin: -50px 0 0 0 ;
+  margin: -50px 0 0 0;
   z-index: 1000;
 }
 
@@ -36,4 +36,11 @@
   height: 0px;
   margin: 28px 0;
   animation: expand-divider 2s ease-out 1 forwards normal;
+}
+
+.main {
+  background-color: #1d2225;
+  width: 1080px;
+  height: 741px;
+  padding: 75px 80px;
 }
