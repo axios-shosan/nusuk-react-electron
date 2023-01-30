@@ -1,0 +1,15 @@
+.linkIcon {
+  width: 62px;
+  height: 62px;
+  margin: auto;
+  margin-top: 2px;
+}
+
+.linkText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-transform: capitalize;
+}

@@ -4,7 +4,7 @@ import wavesBg from '../../../../assets/images/hero-wave-dark.png';
 
 type Props = {
   image: string;
-  animation: 'expand' | 'mask';
+  animation?: 'expand' | 'mask';
 };
 
 export default function Hero({ image, animation = 'mask' }: Props) {

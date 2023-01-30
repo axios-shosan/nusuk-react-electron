@@ -1,0 +1,14 @@
+.heading {
+  font-family: 'Displace-Regular';
+  font-size: 40px;
+  color: #b29164;
+  margin: 0;
+}
+.divider {
+  border: 0;
+  /* border: 1px solid #5d5d5d; */
+  height: 1px;
+  background-color: #5d5d5d;
+  margin: 45px 0;
+  animation: expand-divider 2s ease-out 1 forwards normal;
+}
