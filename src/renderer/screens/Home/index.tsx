@@ -18,7 +18,7 @@ export default function Home() {
       <Button
         extraClasses={`${Classes.homeBtn}`}
         onClick={() => {
-          navigate('/makkah');
+          navigate('/umrah');
         }}
         active
       >

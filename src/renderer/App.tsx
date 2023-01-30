@@ -9,6 +9,7 @@ import MakkahLayout from './components/layouts/MakkahLayout';
 import Home from './screens/Home';
 import MakkahAccomodation from './screens/MakkahAccomodation';
 import ToMakkah from './screens/ToMakkah';
+import UmrahLayout from './components/layouts/UmrahLayout';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
 
-          <Route path="umrah">
+          <Route path="/umrah" element={<UmrahLayout />}>
             <Route path="about" />
             <Route path="pillars" />
             <Route path="miqat" />
