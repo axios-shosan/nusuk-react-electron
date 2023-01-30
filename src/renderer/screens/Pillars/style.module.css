@@ -1,0 +1,29 @@
+.pillarsWrapper {
+  padding: 3rem;
+}
+
+.pillarsWrapper .headerWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.pillarsWrapper .contentWrapper h1 {
+  border-bottom: 2px solid var(--gold);
+  font-family: Displace-regular;
+  color: var(--gold);
+}
+
+.pillarsWrapper .contentWrapper img {
+  margin: 3rem 0;
+  width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 30rem;
+  border-radius: 1.5rem;
+}
+/*# sourceMappingURL=style.module.css.map */
