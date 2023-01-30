@@ -28,14 +28,14 @@
 }
 
 .slides > div {
-  scroll-snap-align: start;
+  position: relative;
   flex-shrink: 0;
-  width: 969px;
-  height: 342px;
+  width: 920px;
+  height: 385px;
+  background: #b49164;
   margin-right: 50px;
   border-radius: 15px;
-  background: #ebebeb;
-  position: relative;
+  scroll-snap-align: start;
 }
 
 .scrollBtnsWrp {
