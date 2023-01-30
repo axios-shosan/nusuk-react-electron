@@ -1,0 +1,24 @@
+.wrapper ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+}
+
+.tabContent {
+  padding: 72px 53px;
+  background-color: #1d2225;
+  height: 788px;
+}
+
+.contentTitle {
+  font-family: Displace-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: #b29164;
+  margin-bottom: 45px;
+}
