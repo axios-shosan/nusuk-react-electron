@@ -1,19 +1,28 @@
-import { Link } from 'react-router-dom';
-import Header from 'renderer/components/Header';
-import styles from './style.module.css';
+import Button from 'renderer/components/Button';
+import { useNavigate } from 'react-router-dom';
+import Logo from '../../../../assets/logo.svg';
+import wavesBg from '../../../../assets/images/hero-wave-dark.png';
+import Classes from './style.module.css';
 
 export default function Home() {
+  const navigate = useNavigate();
   return (
-    <div className={`${styles.container}`}>
-      <Header />
-      <div className={styles.textContainer}>
-        <p className={styles.homeTitle}>
-          Welcome To Nusuk your offical guide to makkah and madina
-        </p>
-      </div>
-      <div className={styles.footer}>
-        <Link to="Umrah & Ziyarah">Umrah & ziyarah</Link>
-      </div>
+    <div className={Classes.container}>
+      <img src={wavesBg} alt="Waves Bg" className={Classes.wavesBg} />
+      <div className={`${Classes.waves} ${Classes.expandedWaves}`} />
+      <img src={Logo} alt="Logo" className={Classes.logo} />
+      <h1 className={Classes.title}>
+        Welcome to Nusuk your official guide to Makkah and Madina
+      </h1>
+      <Button
+        extraClasses={`${Classes.homeBtn}`}
+        onClick={() => {
+          navigate('/');
+        }}
+        active
+      >
+        <p className={Classes.btnText}>Explore</p>
+      </Button>
     </div>
   );
 }
