@@ -29,7 +29,6 @@ const TabsWrapper = styled(Tabs)(
 
 function Navigation({ elements }: NavigationProps) {
   const { pathname } = useLocation();
-  console.log(pathname);
   const navigate = useNavigate();
   const [currentTab, setCurrentTab] = useState<string>(pathname.split('/')[2]);
 
