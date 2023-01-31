@@ -1,14 +1,14 @@
-import React from 'react';
-import Carousel from 'renderer/components/Carousel';
+import { ScrollCardProps } from 'renderer/components/ScrollCard';
+import ScrollCarousel from 'renderer/components/ScrollCarousel';
+import content from './data';
 import styles from './style.module.css';
 
 function MakkahAccomodation() {
-  const content = [<h1>testin</h1>];
   return (
     <>
       <h1 className={styles.heading}>Accomodation</h1>
       <hr className={styles.divider} />
-      <Carousel content={content} />
+      <ScrollCarousel elements={content} />
     </>
   );
 }

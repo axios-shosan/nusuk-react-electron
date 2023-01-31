@@ -24,3 +24,22 @@
   width: 200px;
   border-radius: 10px;
 }
+
+.temp_1 {
+  font-family: 'Displace-Medium';
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.temp_2 {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
+
+.temp_p {
+  font-family: 'Inter';
+  font-size: 18px;
+  opacity: 0.7;
+}
