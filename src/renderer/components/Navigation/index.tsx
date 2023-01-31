@@ -12,6 +12,7 @@ export type NavigationProps = {
 const TabsWrapper = styled(Tabs)(
   () => `
    margin-right: auto !important;
+   margin-left: auto !important;
     .MuiTabs-scrollableX {
       overflow-x: auto !important;
     }
@@ -20,9 +21,9 @@ const TabsWrapper = styled(Tabs)(
         background-color: #B49164 !important;
 
     }
-            .Mui-selected {
-            background-color: #1D2225 !important;
-        }
+    .Mui-selected {
+      background-color: #1D2225 !important;
+    }
 `
 );
 

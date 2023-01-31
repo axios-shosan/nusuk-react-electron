@@ -1,17 +1,19 @@
-import accommodation from '../../../assets/icons/accommoodation.png';
+import aboutIcon from '../../../assets/icons/about.png';
+import pillarsIcon from '../../../assets/icons/Pillars-omrah.png';
+import miqatIcon from '../../../assets/icons/miqat.svg';
+import arrivalIcon from '../../../assets/icons/arrival.svg';
+import importantIcon from '../../../assets/icons/important-tips.png';
+import accessebilityIcon from '../../../assets/icons/accessibility.svg';
+import ziyarahIcon from '../../../assets/icons/ziyarah.png';
 
 const tabs = [
-  { value: 'About Umrah', icon: accommodation, text: 'About Umrah' },
-  { value: 'Pillars Of Umrah', icon: accommodation, text: 'Pillars Of Umrah' },
-  { value: 'Miqat', icon: accommodation, text: 'Miqat' },
-  {
-    value: 'Arrival to Holy Mosque',
-    icon: accommodation,
-    text: 'Arrival to Holy Mosque',
-  },
-  { value: 'Important Tips', icon: accommodation, text: 'Important Tips' },
-  { value: 'Accessibility', icon: accommodation, text: 'Accessibility' },
-  { value: 'Ziyarah', icon: accommodation, text: 'Ziyarah' },
+  { name: 'About Umrah', icon: aboutIcon, target: 'about' },
+  { name: 'Pillars Of Umrah', icon: pillarsIcon, target: 'pillars' },
+  { name: 'Miqat', icon: miqatIcon, target: 'miqat' },
+  { name: 'Arrival to Holly Mosque', icon: arrivalIcon, target: 'arrival' },
+  { name: 'Important Tips', icon: importantIcon, target: 'important' },
+  { name: 'Accessibility', icon: accessebilityIcon, target: 'accessibility' },
+  { name: 'Ziyarah', icon: ziyarahIcon, target: 'ziayarah' },
 ];
 
 export default tabs;

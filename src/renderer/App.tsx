@@ -11,21 +11,25 @@ import MakkahAccomodation from './screens/MakkahAccomodation';
 import ToMakkah from './screens/ToMakkah';
 import Pillars from './screens/Pillars';
 import Explore from './screens/Explore';
+import UmrahLayout from './components/layouts/UmrahLayout';
+import Miqat from './screens/Miqat';
+import Header from './components/Header';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
   return (
     <>
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
 
           <Route path="explore" element={<Explore />} />
 
-          <Route path="umrah">
+          <Route path="/umrah" element={<UmrahLayout />}>
             <Route path="about" />
             <Route path="pillars" element={<Pillars />} />
-            <Route path="miqat" />
+            <Route path="miqat" element={<Miqat />} />
             <Route path="mosque" />
             <Route path="tips" />
             <Route path="accessibility" />

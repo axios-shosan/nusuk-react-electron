@@ -1,4 +1,8 @@
 .container {
+  flex-grow: 1;
+  max-height: 440px;
+  margin-top: 40px;
+  overflow-y: scroll;
 }
 
 .title {
@@ -10,7 +14,6 @@
   line-height: 48px;
   color: #b29164;
   margin-bottom: 28px;
-  margin-left: 54px;
 }
 
 .text {
@@ -19,15 +22,13 @@
   font-size: 20px;
   line-height: 133.02%;
   color: #ffffff;
-  width: 969px;
+  width: 95%;
   opacity: 0.7;
-  margin-left: 54px;
   margin-top: 28px;
 }
 
 .divider {
   border: 0;
-  margin-left: 54px;
   border: 1px solid #5d5d5d;
   height: 0px;
   margin-bottom: 28px;
@@ -35,7 +36,7 @@
 }
 
 .image {
-  width: 865px;
+  width: 100%;
   display: block;
   height: 315px;
   object-fit: cover;
@@ -49,6 +50,43 @@
     width: 0px;
   }
   100% {
-    width: 900px;
+    width: 100%;
+  }
+}
+
+::-webkit-scrollbar,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-track {
+  width: 10px;
+  border: none;
+  background: transparent;
+}
+
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: #b29164;
+}
+
+::-webkit-scrollbar-track {
+  background-image: url('/src/Images/scrollBar.png');
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+
+::-webkit-scrollbar-button {
+  background-size: 25px;
+  background-position: center;
+  height: 23px;
+  &:decrement {
+    background-image: url('/src/Images/arrowUp.png');
+  }
+  &:increment {
+    background-image: url('/src/Images/arrowDown.png');
   }
 }

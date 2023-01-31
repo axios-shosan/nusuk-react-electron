@@ -1,7 +1,11 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
 .buttonsContainer {
   display: flex;
   justify-content: space-evenly;
-  margin: 44px 0;
+  margin-bottom: 50px;
 }
 
 .button {

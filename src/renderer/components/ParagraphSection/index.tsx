@@ -15,19 +15,22 @@ export default function MakkahInto({
   imgAlt = '',
 }: Props) {
   return (
-    <div className={classes.container}>
+    <div>
       <h1 className={classes.title}>{title}</h1>
       <hr className={classes.divider} />
       {imgSrc ? (
         <img src={imgSrc} alt={imgAlt} className={classes.image} />
       ) : null}
-      {text.map((paragraph, id) => (
-        <FadeInSection>
-          <p className={classes.text} key={id}>
-            {paragraph}
-          </p>
-        </FadeInSection>
-      ))}
+
+      <div className={classes.container}>
+        {text.map((paragraph, id) => (
+          <FadeInSection>
+            <p className={classes.text} key={id}>
+              {paragraph}
+            </p>
+          </FadeInSection>
+        ))}
+      </div>
     </div>
   );
 }
