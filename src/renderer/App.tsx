@@ -10,6 +10,7 @@ import Home from './screens/Home';
 import MakkahAccomodation from './screens/MakkahAccomodation';
 import ToMakkah from './screens/ToMakkah';
 import Pillars from './screens/Pillars';
+import Explore from './screens/Explore';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -17,12 +18,13 @@ export default function App() {
     <>
       <Router>
         <Routes>
-          <Route path="/pillars" element={<Pillars />} />
           <Route path="/" element={<Home />} />
+
+          <Route path="explore" element={<Explore />} />
 
           <Route path="umrah">
             <Route path="about" />
-            <Route path="pillars" />
+            <Route path="pillars" element={<Pillars />} />
             <Route path="miqat" />
             <Route path="mosque" />
             <Route path="tips" />
