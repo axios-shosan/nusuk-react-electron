@@ -30,7 +30,7 @@
 .slides > div {
   position: relative;
   flex-shrink: 0;
-  width: 920px;
+  width: 960px;
   height: 385px;
   background: #b49164;
   margin-right: 50px;
