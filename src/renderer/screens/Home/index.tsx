@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className={Classes.container}>
         <img src={wavesBg} alt="Waves Bg" className={Classes.wavesBg} />
-        <div className={`${Classes.waves} ${Classes.expandedWaves}`} />
+        <div className={`${Classes.waves}`} />
         <img src={Logo} alt="Logo" className={Classes.logo} />
         <h1 className={Classes.title}>
           Welcome to Nusuk your official guide to Makkah and Madina
