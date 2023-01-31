@@ -1,7 +1,7 @@
 import { Tabs, Tab } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { ChangeEvent, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import TabBtn from '../TabBtn';
 import styles from './styles.module.css';
 
@@ -28,8 +28,10 @@ const TabsWrapper = styled(Tabs)(
 );
 
 function Navigation({ elements }: NavigationProps) {
+  const { pathname } = useLocation();
+  console.log(pathname);
   const navigate = useNavigate();
-  const [currentTab, setCurrentTab] = useState<string>('edit');
+  const [currentTab, setCurrentTab] = useState<string>(pathname.split('/')[2]);
 
   const handleTabsChange = (_event: ChangeEvent<{}>, value: string): void => {
     setCurrentTab(value);

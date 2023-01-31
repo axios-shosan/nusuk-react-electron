@@ -11,7 +11,7 @@
   position: absolute;
   top: 60px;
   left: 19px;
-  height: 90px;
+  height: 100%;
   width: 4px;
   border-left: 4px dashed #b49164;
   z-index: 0;

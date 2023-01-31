@@ -1,6 +1,6 @@
 import ihramImage from '../../../Images/IhramRitual.png';
-import tawafImage from '../../../Images/TawafPillars.jpg';
-import saiImage from '../../../Images/SaiPillars.jpg';
+import tawafImage from '../../../Images/tawafPillars.jpg';
+import saiImage from '../../../Images/saiPillars.jpg';
 
 const pillarsData = [
   {

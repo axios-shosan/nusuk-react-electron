@@ -15,6 +15,8 @@ import UmrahLayout from './components/layouts/UmrahLayout';
 import Miqat from './screens/Miqat';
 import Header from './components/Header';
 import AboutUmrah from './screens/AboutUmrah';
+import Mosque from './screens/Mosque';
+import Tips from './screens/Tips';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -31,8 +33,8 @@ export default function App() {
             <Route path="about" element={<AboutUmrah />} />
             <Route path="pillars" element={<Pillars />} />
             <Route path="miqat" element={<Miqat />} />
-            <Route path="mosque" />
-            <Route path="tips" />
+            <Route path="mosque" element={<Mosque />} />
+            <Route path="tips" element={<Tips />} />
             <Route path="accessibility" />
             <Route path="ziyarah" />
           </Route>
