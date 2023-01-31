@@ -18,7 +18,7 @@ export default function CarouselCardFood({
   return (
     <div className={classes.wrapper}>
       <img src={image} className={classes.img} alt="Food" />
-      <div>
+      <div className={classes.info}>
         <h1 className={classes.temp_1}>{title}</h1>
         <p className={classes.temp_p}>{description}</p>
         <Button active extraClasses={`${classes.btn}`}>

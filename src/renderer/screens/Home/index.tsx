@@ -1,6 +1,5 @@
 import Button from 'renderer/components/Button';
 import { useNavigate } from 'react-router-dom';
-import Header from 'renderer/components/Header';
 import Logo from '../../../../assets/logo.svg';
 import wavesBg from '../../../../assets/images/hero-wave-dark.png';
 import Classes from './style.module.css';
@@ -9,7 +8,6 @@ export default function Home() {
   const navigate = useNavigate();
   return (
     <>
-      <Header />
       <div className={Classes.container}>
         <img src={wavesBg} alt="Waves Bg" className={Classes.wavesBg} />
         <div className={`${Classes.waves} ${Classes.expandedWaves}`} />
