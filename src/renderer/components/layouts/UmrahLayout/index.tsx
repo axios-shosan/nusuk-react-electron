@@ -9,7 +9,7 @@ import UmrahHeroImg from '../../../../../assets/images/Umrah/UmrahHero.png';
 export default function UmrahLayout() {
   return (
     <>
-      <Header mainHeading="Umrah & Zakat" />
+      <Header mainHeading="Umrah & Ziyarah" />
       <Hero image={UmrahHeroImg} />
       <div className={styles.tabsWrapper}>
         <Navigation elements={tabs} />
