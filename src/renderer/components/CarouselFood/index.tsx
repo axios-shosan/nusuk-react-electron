@@ -2,7 +2,7 @@ import React, { ReactNode } from 'react';
 import classes from './style.module.css';
 import nextIcon from '../../../../assets/icons/nextCarousel.svg';
 import prevIcon from '../../../../assets/icons/prevCarousel.svg';
-import CarouselCard, { CarouselCardProps } from '../CarouselCard';
+import CarouselCardFood, { CarouselCardProps } from '../CarouselCardFood';
 
 export default function Carousel({
   content,
@@ -53,10 +53,9 @@ export default function Carousel({
       >
         {content.map((element, i) => (
           <div className={`slide ${classes.slide}`} id={`slide${i}`}>
-            <CarouselCard
+            <CarouselCardFood
               image={element.image}
               title={element.title}
-              subtitle={element.subtitle}
               description={element.description}
               target={element.target}
             />
