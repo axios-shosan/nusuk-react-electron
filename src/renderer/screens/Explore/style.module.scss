@@ -11,3 +11,39 @@
     margin-left: 120px;
   }
 }
+
+.wrapper {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1080px;
+  height: 102px;
+  padding: 23px 25px 23px 40px;
+  box-sizing: border-box;
+
+  background: #1d2124;
+  opacity: 0.9;
+  z-index: 1000;
+}
+
+.logo {
+  width: 100px;
+}
+
+.headings {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.headings h1 {
+  font-family: Displace-Medium;
+  font-size: 40px;
+}
+
+.headings p {
+  font-family: Inter;
+  font-size: 10px;
+}

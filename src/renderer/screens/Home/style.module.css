@@ -18,17 +18,16 @@
 
 .title {
   position: absolute;
-  width: 600px;
+  width: 665px;
   height: 220px;
   left: 93px;
   top: 1039px;
-
   font-family: Displace-Medium;
   font-style: normal;
   font-weight: 500;
-  font-size: 60px;
-  line-height: 72px;
-
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: 2px;
   color: #ffffff;
 }
 

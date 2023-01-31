@@ -1,13 +1,15 @@
 import Hero from 'renderer/components/Hero';
 import CarouselExplore from 'renderer/components/CarouselExplore';
-import Header from 'renderer/components/Header';
 import classes from './style.module.css';
 import heroImage from '../../../Images/exploreHero.png';
+import logo from '../../../Images/logonusuk.png';
 
 const Explore = () => {
   return (
     <div>
-      <Header />
+      <header className={classes.wrapper}>
+        <img src={logo} alt="Nusuk logo" className={classes.logo} />
+      </header>
       <div className={classes.heroContainer}>
         <Hero image={heroImage} />
         <h1>

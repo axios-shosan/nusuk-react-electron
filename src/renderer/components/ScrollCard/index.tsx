@@ -15,7 +15,6 @@ function ScrollCard({ image, title, description, target }: ScrollCardProps) {
       <div className={styles.info_wrapper}>
         <h1>{title}</h1>
         <p>{description}</p>
-        <a href={target}>Book now</a>
       </div>
     </div>
   );

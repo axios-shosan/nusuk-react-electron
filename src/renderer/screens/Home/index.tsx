@@ -1,3 +1,4 @@
+import { useEffect } from 'react';
 import Button from 'renderer/components/Button';
 import { useNavigate } from 'react-router-dom';
 import Logo from '../../../../assets/logo.svg';
@@ -6,6 +7,7 @@ import Classes from './style.module.css';
 
 export default function Home() {
   const navigate = useNavigate();
+
   return (
     <>
       <div className={Classes.container}>
