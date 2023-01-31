@@ -39,7 +39,7 @@ const carouselData = [
     title: 'Madina',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/',
+    href: '/madina',
   },
 ];
 

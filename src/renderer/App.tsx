@@ -21,6 +21,7 @@ import MakkahHolySite from './screens/MakkahHolySite';
 import MakkahLandmarks from './screens/MakkahLandmarks';
 import MakkahFood from './screens/MakkahFood';
 import MakkahShopping from './screens/MakkahShopping';
+import MadinaLayout from './components/layouts/MadinaLayout';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -53,7 +54,7 @@ export default function App() {
             <Route path="" element={<Navigate to="/makkah/accomodation" />} />
           </Route>
 
-          <Route path="madina">
+          <Route path="madina" element={<MadinaLayout />}>
             <Route path="accomodation" />
             <Route path="landmarks" />
             <Route path="shopping" />
