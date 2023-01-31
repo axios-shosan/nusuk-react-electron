@@ -13,7 +13,6 @@ import Pillars from './screens/Pillars';
 import Explore from './screens/Explore';
 import UmrahLayout from './components/layouts/UmrahLayout';
 import Miqat from './screens/Miqat';
-import Header from './components/Header';
 import AboutUmrah from './screens/AboutUmrah';
 import Mosque from './screens/Mosque';
 import Tips from './screens/Tips';
@@ -33,7 +32,6 @@ export default function App() {
   return (
     <>
       <Router>
-        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
 

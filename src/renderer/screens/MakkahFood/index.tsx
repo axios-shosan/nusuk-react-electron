@@ -1,6 +1,6 @@
-import Carousel from 'renderer/components/Carousel';
 import tempImg from '../../../Images/makkah_hero.png';
 import styles from './styles.module.css';
+import Carousel from 'renderer/components/CarouselFood';
 
 const temp = (
   <div className={styles.temp_wrapper}>
