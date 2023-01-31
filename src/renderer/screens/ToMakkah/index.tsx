@@ -6,9 +6,11 @@ const temp = (
   <div className={styles.temp_wrapper}>
     <img src={tempImg} alt="temp" />
     <div>
-      <h2>Traveling by Air</h2>
-      <h1>From King Abdulaziz International Airport in Jeddah</h1>
-      <p>
+      <h2 className={styles.temp_2}>Traveling by Air</h2>
+      <h1 className={styles.temp_1}>
+        From King Abdulaziz International Airport in Jeddah
+      </h1>
+      <p className={styles.temp_p}>
         The airport gives arrivals quick access to Makkah via the Haramain train
         station adjacent to the arrival hall. They can also have access to buses
         going straight to the grand mosque. It also allows them to take a taxi
