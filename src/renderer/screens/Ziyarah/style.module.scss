@@ -1,0 +1,73 @@
+.container {
+  max-height: 980px;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  .card {
+    width: 98%;
+    margin-top: 5px;
+    &:not(:first-child) {
+      margin-top: 30px;
+    }
+
+    .icon {
+      width: 60px;
+      height: 60px;
+      margin-top: 30px;
+      object-fit: contain;
+    }
+    .button {
+      width: 100%;
+      height: 150px;
+      position: relative;
+      outline: none;
+      border: none;
+      background-color: black;
+      border-radius: 20px;
+      overflow: hidden;
+      cursor: pointer;
+
+      & > img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0.7;
+      }
+
+      & > p {
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        transform: translateY(-15px);
+        font-family: Displace-Medium;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        color: #fff;
+      }
+
+      &.active {
+        border: 4px solid #23282c;
+        outline: 4px solid var(--gold);
+      }
+    }
+
+    p {
+      margin-top: 15px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+
+      &:last-child {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
