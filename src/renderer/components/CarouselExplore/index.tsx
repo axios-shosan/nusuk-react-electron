@@ -23,7 +23,7 @@ const carouselData = [
     title: 'Umrah & Ziyarah',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/',
+    href: '/umrah/about',
   },
   {
     img: MakkahImage,
