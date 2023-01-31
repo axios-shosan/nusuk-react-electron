@@ -1,0 +1,75 @@
+.Wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  color: #b49164;
+  margin-bottom: 17px;
+}
+
+.divider {
+  width: 868px;
+  height: 0px;
+  border: 1px solid #5d5d5d;
+  margin-bottom: 17px;
+}
+
+.steps {
+  height: 439px;
+  padding: 0 64px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 0;
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 110%;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(35, 40, 44, 0) 25%,
+    rgba(35, 40, 44, 0.75) 80%,
+    rgba(35, 40, 44, 0.9) 95%,
+    #23282c 100%
+  );
+  pointer-events: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: linear-gradient(
+    90deg,
+    #23282c 0%,
+    #23282c 30%,
+    #b39164 50%,
+    #23282c 60%,
+    #23282c 100%
+  );
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #b39164;
+  width: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #967954;
+}
