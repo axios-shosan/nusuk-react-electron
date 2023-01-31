@@ -11,7 +11,9 @@ export default function UmrahLayout() {
     <>
       <Header mainHeading="Umrah & Zakat" />
       <Hero image={UmrahHeroImg} />
-      <Navigation elements={tabs} />
+      <div className={styles.tabsWrapper}>
+        <Navigation elements={tabs} />
+      </div>
       <main className={styles.main}>
         <Outlet />
       </main>

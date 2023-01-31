@@ -11,12 +11,14 @@ import MakkahAccomodation from './screens/MakkahAccomodation';
 import ToMakkah from './screens/ToMakkah';
 import UmrahLayout from './components/layouts/UmrahLayout';
 import Miqat from './screens/Miqat';
+import Header from './components/Header';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
   return (
     <>
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
 
