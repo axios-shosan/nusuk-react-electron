@@ -11,7 +11,7 @@ const tabs = [
   { name: 'Pillars Of Umrah', icon: pillarsIcon, target: 'pillars' },
   { name: 'Miqat', icon: miqatIcon, target: 'miqat' },
   { name: 'Arrival to Holly Mosque', icon: arrivalIcon, target: 'mosque' },
-  { name: 'Important Tips', icon: importantIcon, target: 'important' },
+  { name: 'Important Tips', icon: importantIcon, target: 'tips' },
   { name: 'Accessibility', icon: accessebilityIcon, target: 'accessibility' },
   { name: 'Ziyarah', icon: ziyarahIcon, target: 'ziayarah' },
 ];
