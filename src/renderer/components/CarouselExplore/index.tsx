@@ -31,7 +31,7 @@ const carouselData = [
     title: 'Makkah',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/makkah',
+    href: '/makkah/accomodation',
   },
   {
     img: MadinaImage,
