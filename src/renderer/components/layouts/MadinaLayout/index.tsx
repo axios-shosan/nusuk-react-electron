@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 function MadinaLayout() {
   return (
     <>
-      <Header mainHeading="Makkah" />
+      <Header mainHeading="Madina" />
       <Hero image={MadinaHero} />
       <div className={styles.wrapper}>
         <h1 className={styles.heading}>Al Madina Al Munawara</h1>

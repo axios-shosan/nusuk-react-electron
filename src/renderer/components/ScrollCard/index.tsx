@@ -9,7 +9,9 @@ export type ScrollCardProps = {
 function ScrollCard({ image, title, description, target }: ScrollCardProps) {
   return (
     <div className={styles.wrapper}>
-      <img src={image} alt="" />
+      <div className={styles.imgWrapper}>
+        <img className={styles.img} src={image} alt="" />
+      </div>
       <div className={styles.info_wrapper}>
         <h1>{title}</h1>
         <p>{description}</p>
