@@ -17,6 +17,10 @@ import Header from './components/Header';
 import AboutUmrah from './screens/AboutUmrah';
 import Mosque from './screens/Mosque';
 import Tips from './screens/Tips';
+import MakkahHolySite from './screens/MakkahHolySite';
+import MakkahLandmarks from './screens/MakkahLandmarks';
+import MakkahFood from './screens/MakkahFood';
+import MakkahShopping from './screens/MakkahShopping';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -41,10 +45,10 @@ export default function App() {
 
           <Route path="makkah" element={<MakkahLayout />}>
             <Route path="accomodation" element={<MakkahAccomodation />} />
-            <Route path="holy-sites" />
-            <Route path="landmarks" />
-            <Route path="shopping" />
-            <Route path="food-drinks" />
+            <Route path="holy-sites" element={<MakkahHolySite />} />
+            <Route path="landmarks" element={<MakkahLandmarks />} />
+            <Route path="shopping" element={<MakkahShopping />} />
+            <Route path="food-drinks" element={<MakkahFood />} />
             <Route path="to-makkah" element={<ToMakkah />} />
             <Route path="" element={<Navigate to="/makkah/accomodation" />} />
           </Route>

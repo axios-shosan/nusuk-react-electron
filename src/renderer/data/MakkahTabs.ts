@@ -7,10 +7,10 @@ import pathIcon from '../../Images/makkah/path.png';
 
 const tabs = [
   { name: 'Accomodation', icon: accomodationIcon, target: 'accomodation' },
-  { name: 'Holy sites', icon: sitesIcon, target: 'sites' },
+  { name: 'Holy sites', icon: sitesIcon, target: 'holy-sites' },
   { name: 'Landmarks', icon: landmarksIcon, target: 'landmarks' },
   { name: 'Shopping', icon: shoppingIcon, target: 'Shopping' },
-  { name: 'Food & drinks', icon: foodIcon, target: 'food' },
+  { name: 'Food & drinks', icon: foodIcon, target: 'food-drinks' },
   { name: 'Getting to Makkah', icon: pathIcon, target: 'to-makkah' },
 ];
 
