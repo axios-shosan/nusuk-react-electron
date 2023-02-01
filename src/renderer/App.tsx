@@ -34,8 +34,19 @@ import Button from './components/Button';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
+  function redirectToHomepage() {
+    if (window.location.href !== '/') window.location.href = '/'; // or whatever your homepage would be
+  }
+
+  let redirectTimeoutId: number;
+
   return (
-    <>
+    <div
+      onTouchEnd={() => {
+        window.clearTimeout(redirectTimeoutId);
+        redirectTimeoutId = window.setTimeout(redirectToHomepage, 70000);
+      }}
+    >
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -76,6 +87,6 @@ export default function App() {
           <Button extraClasses="homeBtn">Home</Button>
         </Link>
       </Router>
-    </>
+    </div>
   );
 }
