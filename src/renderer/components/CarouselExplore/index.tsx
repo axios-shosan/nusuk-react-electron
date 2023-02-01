@@ -59,7 +59,7 @@ export default function CarouselExplore() {
   return (
     <div className={classes.carousel}>
       <div
-        className={`${classes.slides} slides`}
+        className={`${classes.slides} no-animation slides`}
         onScroll={() => {
           handleScroll();
         }}

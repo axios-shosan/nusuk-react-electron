@@ -6,7 +6,7 @@
   justify-content: space-between;
   gap: 34px;
   height: 384px;
-  border-radius: 15px;
+  border-radius: 15px !important;
 }
 
 .img {
@@ -30,6 +30,7 @@
   height: 342px;
   height: 100%;
   background-color: #fff;
+  border-radius: 15px;
 }
 
 .temp_1 {

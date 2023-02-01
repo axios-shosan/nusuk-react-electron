@@ -18,6 +18,11 @@
   scrollbar-width: none;
 }
 
+.no-animation {
+  transform: translateX(0) !important;
+  animation: none !important;
+}
+
 .slides::-webkit-scrollbar {
   display: none;
 }

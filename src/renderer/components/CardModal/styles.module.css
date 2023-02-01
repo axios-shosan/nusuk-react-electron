@@ -13,6 +13,16 @@
   gap: 120px;
   transition: transform 300ms cubic-bezier(0.57, 0.21, 0.69, 1.25);
   z-index: 100;
+  opacity: 0;
+  transform: scale(80%, 80%);
+  animation: popUpFade ease 3s forwards !important;
+}
+
+@keyframes popUpFade {
+  to {
+    opacity: 1;
+    transform: scale(100%);
+  }
 }
 
 .modelWrapper {
@@ -38,6 +48,7 @@
   align-items: center;
   cursor: pointer;
   transition: transform 300ms cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  border: none;
 }
 
 .imgWrapper {

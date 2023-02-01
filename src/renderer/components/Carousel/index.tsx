@@ -44,7 +44,7 @@ export default function Carousel({
     setActiveSection(index);
   };
   return (
-    <div className={classes.carousel}>
+    <div className="carousel">
       <div
         className={`${classes.slides} slides`}
         onScroll={() => {
