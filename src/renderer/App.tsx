@@ -27,15 +27,16 @@ import MadinaShopping from './screens/MadinaShopping';
 import MadinaFood from './screens/MadinaFood';
 import ToMadina from './screens/ToMadina';
 import About from './screens/About';
+import Header from './components/Header';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
   return (
     <>
       <Router>
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-
           <Route path="explore" element={<Explore />} />
 
           <Route path="/about" element={<About />} />
