@@ -8,10 +8,6 @@ import { Link } from 'react-router-dom';
 import Button from 'renderer/components/Button';
 
 export default function About() {
-  function redirectToHomepage() {
-    window.location.href = '/home'; // or whatever your homepage would be
-  }
-
   return (
     <div>
       <Header mainHeading="About Nusuk" />

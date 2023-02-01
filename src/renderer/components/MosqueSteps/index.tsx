@@ -10,7 +10,7 @@ const text = [
   'It is Sunnah for men to walk quickly in the first three rounds of Tawaf.',
   'It is proven that Prophet Muhammad, peace be upon him, used to say between the Yemeni corner and the Black Stone: "Our Lord! Give us good in this world and good in the Hereafter, and defend us from the torment of the Fire!"',
   'Praying two rak’ahs behind Maqam Ibrahim, if possible, or in any place in Masjid Al Haram, with reciting Surat Al-Kafirun after Al-Fatihah in the first rak’ah and Surat Al-Ikhlas in the second rak’ah.',
-  `Performing Sa'I between Safa and Marwa while reciting " Indeed! Safa and Marwa are among the rites of Allah. So it is not a sin for him who performs Hajj or Umrah of the House (the Kaaba at Makkah) to travel between them (Safa and Marwah). And whoever does good voluntarily, then verily, Allah is All-Recogniser, All-Knower." (Surah Al Baqarah, 158). Sa'i starts in Safa then pilgrims proceed to Marwah and do what they did at Safa, repeating this seven times (going is one round and coming back is one round).`,
+  `Performing Sa'I between Safa and Marwa while reciting " Indeed! Safa and Marwa are among the rites of Allah. So it is not a sin for him who performs Hajj or Umrah of the House (the Kaaba at Makkah) to travel between them (Safa and Marwah). And whoever does good voluntarily, then verily, Allah is All-Recognizer, All-Knower." (Surah Al Baqarah, 158). Sa'i starts in Safa then pilgrims proceed to Marwah and do what they did at Safa, repeating this seven times (going is one round and coming back is one round).`,
   'It is Sunnah for men to jog between the two (green) marks in pursuit.',
   'Upon completion of the Umrah, men must shave their hair or shorten it, while women cut an inch or less from it.',
 ];
