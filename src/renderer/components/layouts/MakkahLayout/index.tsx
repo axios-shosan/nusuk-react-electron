@@ -1,4 +1,4 @@
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import Header from 'renderer/components/Header';
 import Navigation from 'renderer/components/Navigation';
@@ -6,6 +6,7 @@ import makkahHero from '../../../../Images/makkah_hero.png';
 import waves from '../../../../Images/Waves.png';
 import tabs from '../../../data/MakkahTabs';
 import styles from './style.module.css';
+import Button from 'renderer/components/Button';
 
 function MakkahLayout() {
   return (
@@ -61,6 +62,9 @@ function MakkahLayout() {
       <main className={styles.main}>
         <Outlet />
       </main>
+      <Link className="homeLink" to="/explore">
+        <Button extraClasses="homeBtn">Home</Button>
+      </Link>
     </>
   );
 }

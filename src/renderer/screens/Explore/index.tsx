@@ -1,5 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import Hero from 'renderer/components/Hero';
+import { Link } from 'react-router-dom';
+import Button from 'renderer/components/Button';
 import CarouselExplore from 'renderer/components/CarouselExplore';
 import classes from './style.module.css';
 import heroImage from '../../../Images/exploreHero.png';
@@ -40,6 +42,9 @@ const Explore = () => {
       <div className={classes.carouselContainer}>
         <CarouselExplore />
       </div>
+      <Link className="homeLink" to="/explore">
+        <Button extraClasses="homeBtn">Home</Button>
+      </Link>
     </div>
   );
 };

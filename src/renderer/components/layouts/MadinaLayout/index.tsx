@@ -1,11 +1,12 @@
 import Typewriter from 'typewriter-effect';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import Header from 'renderer/components/Header';
 import Navigation from 'renderer/components/Navigation';
 import Hero from 'renderer/components/Hero';
 import tabs from '../../../data/MadinaTabs';
 import MadinaHero from '../../../../../assets/images/madina/madina-banner.png';
 import styles from './styles.module.css';
+import Button from 'renderer/components/Button';
 
 function MadinaLayout() {
   return (
@@ -52,6 +53,9 @@ function MadinaLayout() {
       <main className={styles.main}>
         <Outlet />
       </main>
+      <Link className="homeLink" to="/explore">
+        <Button extraClasses="homeBtn">Home</Button>
+      </Link>
     </>
   );
 }

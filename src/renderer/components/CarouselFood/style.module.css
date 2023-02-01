@@ -40,7 +40,7 @@
 .slides {
   opacity: 0;
   transform: translateX(-1000px);
-  animation: fadeInRight ease 3s forwards !important;
+  animation: fadeInRight ease 1.5s forwards !important;
 }
 
 @keyframes fadeInRight {
@@ -57,7 +57,7 @@
 .slides h5,
 .slides h6 {
   transform: translateX(-3rem);
-  animation: fadeInRightText 2s ease 2s forwards !important;
+  animation: fadeInRightText 1s ease 1s forwards !important;
 }
 
 @keyframes fadeInRightText {

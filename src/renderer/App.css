@@ -18,7 +18,8 @@
 body {
   position: relative;
   color: white;
-  height: 100vh;
+  height: 1920px;
+  width: 1080px;
   background-color: #23282c;
   font-family: sans-serif;
   /* overflow-y: hidden; */
@@ -36,7 +37,7 @@ body {
 }
 
 h1 {
-  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing 1s steps(22), blink 0.5s step-end infinite alternate;
   overflow: hidden;
 }
 
@@ -60,6 +61,10 @@ a:active {
   text-decoration: none;
 }
 
+p {
+  animation: fadeIn ease 2s forwards !important;
+}
+
 h1,
 h2,
 h3,
@@ -69,12 +74,12 @@ h6 {
   /* animation: fadeInText 5s; */
   /* color: hsl(0 0% 0% / 0.7); */
   opacity: 0;
-  transform: translateY(2rem);
-  animation: fadeInUp ease 2s forwards !important;
+  transform: translateY(1rem);
+  animation: fadeInUp ease 1.5s forwards !important;
 }
 
 img {
-  animation: fadeIn 4s;
+  animation: fadeIn 2s;
 }
 
 @keyframes fadeInUp {

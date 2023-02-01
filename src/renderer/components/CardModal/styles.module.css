@@ -15,7 +15,7 @@
   z-index: 100;
   opacity: 0;
   transform: scale(80%, 80%);
-  animation: popUpFade ease 3s forwards !important;
+  animation: popUpFade ease 1s forwards !important;
 }
 
 @keyframes popUpFade {

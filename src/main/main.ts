@@ -74,13 +74,22 @@ const createWindow = async () => {
     width: 1080,
     height: 1920,
     autoHideMenuBar: true,
-    resizable: true,
+    resizable: false,
+    fullscreen: true,
     icon: getAssetPath('icon.png'),
     webPreferences: {
+      devTools: true,
       preload: app.isPackaged
         ? path.join(__dirname, 'preload.js')
         : path.join(__dirname, '../../.erb/dll/preload.js'),
     },
+  });
+
+  mainWindow.once('ready-to-show', () => {
+    if (!mainWindow) {
+      throw new Error('"mainWindow" is not defined');
+    }
+    mainWindow.webContents.setZoomFactor(0.8);
   });
 
   mainWindow.loadURL(resolveHtmlPath('index.html'));

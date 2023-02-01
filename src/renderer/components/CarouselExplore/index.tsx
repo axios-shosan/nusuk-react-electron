@@ -7,6 +7,7 @@ import AboutNusukImage from '../../../Images/AboutNusuk.png';
 import UmrahZiyarahImage from '../../../Images/Umrah&Ziyarah.png';
 import MakkahImage from '../../../Images/Makkah.png';
 import MadinaImage from '../../../Images/Madina.png';
+import Logo from '../../../Images/frame.png';
 
 const carouselData = [
   {
@@ -40,6 +41,13 @@ const carouselData = [
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
     href: '/madina/accomodation',
+  },
+  {
+    img: Logo,
+    alt: 'website',
+    title: 'Frame',
+    description: 'Click here to visit the website',
+    href: '/iframe',
   },
 ];
 
@@ -120,6 +128,15 @@ export default function CarouselExplore() {
           href="#slide-3"
           onClick={() => {
             handleLinkClick(3);
+          }}
+        />
+        <a
+          className={`${classes.scrollBtn} ${
+            activeSection === 4 ? classes.active : ''
+          }`}
+          href="#slide-4"
+          onClick={() => {
+            handleLinkClick(4);
           }}
         />
         {/* <button
