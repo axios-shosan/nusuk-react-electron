@@ -60,12 +60,6 @@ a:active {
   text-decoration: none;
 }
 
-.slides {
-  opacity: 0;
-  transform: translateX(-1000px);
-  animation: fadeInRight ease 3s forwards !important;
-}
-
 h1,
 h2,
 h3,
@@ -79,24 +73,8 @@ h6 {
   animation: fadeInUp ease 2s forwards !important;
 }
 
-.slides h1,
-.slides h2,
-.slides h3,
-.slides h4,
-.slides h5,
-.slides h6 {
-  animation: fadeInUp 2s ease 2s forwards !important;
-}
-
 img {
   animation: fadeIn 4s;
-}
-
-@keyframes fadeInRight {
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 @keyframes fadeInUp {

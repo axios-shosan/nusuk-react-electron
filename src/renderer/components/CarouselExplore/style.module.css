@@ -18,7 +18,7 @@
   scrollbar-width: none;
 }
 
-.no-animation {
+.no-animation .slides {
   transform: translateX(0) !important;
   animation: none !important;
 }

@@ -57,9 +57,9 @@ export default function CarouselExplore() {
     setActiveSection(index);
   };
   return (
-    <div className={classes.carousel}>
+    <div className={`${classes.carousel} no-animation`}>
       <div
-        className={`${classes.slides} no-animation slides`}
+        className={`${classes.slides} slides`}
         onScroll={() => {
           handleScroll();
         }}

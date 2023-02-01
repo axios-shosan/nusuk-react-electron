@@ -72,7 +72,7 @@ export default function App() {
             <Route path="to-madina" element={<ToMadina />} />
           </Route>
         </Routes>
-        <Link className="homeLink" to="/">
+        <Link className="homeLink" to="/explore">
           <Button extraClasses="homeBtn">Home</Button>
         </Link>
       </Router>
