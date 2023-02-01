@@ -1,40 +1,100 @@
-// import img1 from '../../../Images/makkah/holly/makkah-holly-1.jpg';
-import img2 from '../../../Images/makkah/holly/makkah-holly-2.jpeg';
-import img3 from '../../../Images/makkah/holly/makkah-holly-3.jpeg';
-import img4 from '../../../Images/makkah/holly/makkah-holly-4.jpeg';
-import img5 from '../../../Images/makkah/holly/makkah-holly-5.jpeg';
-import img1 from '../../../Images/makkah/holly/makkah-holly-1.jpeg';
+import safwahImg from '../../../Images/makkah/Safwah.jpeg';
+import rafflesImg from '../../../Images/makkah/Raffles.jpeg';
+import fairmontImg from '../../../Images/makkah/Fairmont.jpeg';
+import daraltawhidintercontinentalImg from '../../../Images/makkah/dar_al_tawhid_intercontinental.jpeg';
+import hiltonsuitesImg from '../../../Images/makkah/Hilton_Suites.jpeg';
+import swissotelImg from '../../../Images/makkah/Swissotel.jpeg';
+import conradImg from '../../../Images/makkah/Conrad.jpeg';
+import jabalomarImg from '../../../Images/makkah/Jabal_Omar_Hyatt_Regency.jpeg';
+import movenpickhotelImg from '../../../Images/makkah/Movenpick_hotel_Hajar_Tower.jpeg';
+import elafKindaImg from '../../../Images/makkah/Elaf_Kinda.jpeg';
+import guesthouseImg from '../../../Images/makkah/Guest_house.jpeg';
+import midanHotelImg from '../../../Images/makkah/Midan_Hotel.png';
 
 const cards = [
   {
-    image: img1,
-    title: 'Mina',
-    description: `A stage of Hajj journey. It is characterized by white tents. It has recently won the Guinness World Records Award for the largest tent city in the world. It provides many services, including the Mashaer Train, housing camps, catering, transportation system, integrated electricity system, and interconnected road network. Pilgrims usually spend the Day of Tarwiyah (the eighth day of Dhu al-Hijjah) there and return to Mina again to spend Day of Nahr (the tenth day of Dhu al-Hijjah) and the three days of Tashreeq (the eleventh, the twelfth, and thirteenth days of Dhul-Hijjah). Mina is the first stage of Hajj. It has a historical and religious status. It is famous for archaeological landmarks and historical events, as it is located within the boundaries of the Haram between Makkah and Muzdalifah, 7 km to the northeast of the Holy Mosque. Mina also includes the extension of “Ain Zubaida,” in addition to some old wells, including the well of Kadana. Mina is famous for the historical seasonal markets, including the Arab Market, which was given this name because most Arab pilgrims used to display their goods at this market from the tenth day to the thirteenth day of Dhu al-Hijjah.`,
+    image: safwahImg,
+    description:
+      'Located opposite the King Abdul Aziz Gate in Makkah, Al Safwah Hotel offers modern and upscale accommodation in a tall building in the Grand Mosque. Provide free Wi-Fi service. The rooms at Al Safwa Royal Orchid Hotel are furnished with contemporary furniture and are equipped with a flat-screen TV with satellite channels. They are all air-conditioned and have an en suite bathroom with selected toiletries.',
     target: 'somelink',
+    title: 'Al Safwah',
   },
   {
-    image: img2,
-    title: 'Arafah',
-    description: `One of the stages of the pilgrim’s journey. It occurs on the ninth day of Dhu al-Hijjah, where pilgrims stand at Arafah. The Prophet, may peace and prayers be upon him, said: (Hajj is Arafah). That is why it is called the Greatest Day of Hajj. Standing at Arafah and supplication anywhere within the boundaries of Arafah or the Mountain of Mercy are allowed on the day of Arafah. On the day of Arafah, pilgrims join and shorten zuhr prayer and asr prayer. The prayer has a sermon as the Prophet, may peace and prayers be upon him, did as he performed Hajj, delivered a sermon, and led Muslims in his last farewell Hajj. Pilgrims start to depart Arafat to head to Muzdalifah after the sunset. The day of Arafah has great virtues, as the Prophet, may peace and prayers be upon him, said that the day of Arafah is the best day for Allah.`,
+    image: rafflesImg,
+    description:
+      'Raffles Palace is an exclusive all-suite hotel with stunning views of the Holy Mosque and the Kaaba in a prime location right next to the Grand Mosque. Professional butlers provide the signature Raffles style of service. Luxurious Raffles décor with marble floors and oriental rugs makes you feel right at home.',
     target: 'somelink',
+    title: 'Raffles',
   },
   {
-    image: img3,
-    title: 'Muzdalifah',
-    description: `Allah called it al- Mash'ar al-Haram in the Holy Qur’an: (But when you depart from 'Arafat, remember Allah at al- Mash'ar al-Haram). It is a stage of the Hajj journey. It is located between Mina and Arafah. The pilgrims stay overnight there after they depart Arafah. They join and shorten Maghrib and Isha prayers and collect pebbles for Jamarat, in Mina. Pilgrims stay there for part of the night or until the dawn of the next day, the day of Eid, to move to Mina.`,
+    image: fairmontImg,
+    description:
+      'Fairmont hotel is located just 100 meters from the Holy Mosque, inside the Makkah Al Mukarramah Clock Tower, and is considered one of the tallest buildings in the world. It features a fully equipped fitness center, hot tub, sauna, and steam room. It offers concierge services around the clock.',
     target: 'somelink',
+    title: 'Fairmont',
   },
   {
-    image: img4,
-    title: 'Namirah Mosque',
-    description: `A mosque that was built in Arafah where the Prophet, may peace and prayers be upon him, delivered a sermon for the last farewell Hajj. In Namirah Mosque, thousands of pilgrims pray zuhr and asr prayers on the day of Arafah. It is located to the west of Arafah. The western part of the Mosque is located in Wadi ‘Arnah, which is a valley of Makkah Al-Mukarramah where the Prophet prohibited pilgrims from standing there because it is not a part of Arafat, but it is very close thereto. Namirah Mosque is known in many books by several other names, such as the Mosque of the Prophet Ibrahim, Arafah Mosque, and Arnah Mosque. The name Arafah Mosque was originated from a village outside Arafah Area where the Prophet, may peace and prayers be upon him, resided and then moved to the valley, where he prayed zuhr and asr prayers and delivered a sermon in the Mosque. During the era of the Saudi State, the Mosque witnessed the largest expansions in history, where it became the second largest mosque in Makkah in terms of area after the Holy Mosque. The length of the Mosque from east to west is 340 meters, and the width from north to south is 240 meters. Its area is more than 110,000 square meters. Behind the Mosque, there is a shaded area of 8 thousand square meters. The Mosque accommodates about 350 thousand worshippers. It has six minarets and an equipped outside broadcasting room for broadcasting the sermon and zuhr and asr prayers on the day of Arafat, directly by satellite.`,
+    image: daraltawhidintercontinentalImg,
+    description:
+      'Dar Al Tawheed Contenintal hotel is distinguished by its location, just steps away from the Holy Mosque and the Kaaba. There are two private entrances to the Grand Mosque directly from the hotel gate, giving our distinguished guests comfort and privacy while performing Hajj and Umrah.',
     target: 'somelink',
+    title: 'Dar Al Tawhid InterContinental',
   },
   {
-    image: img5,
-    title: 'Jamarat',
-    description: `One of the most prominent landmarks of Mina is the Jamarat or the Jamrah Pillars that are thrown at the Jamarat Bridge. The three Jamarat are located in Mina Valley. Currently, they are within the Jamarat Bridge, which is one of the great achievements of the Kingdom’s Government, in order to organize crowds and provide safety when they go to throw Jamarat. At the beginning of the Day of Nahr, only the seven pebbles of the biggest Jamrah are thrown. During the days of Tashreeq, each Jamrah is thrown at with seven pebbles, from the Smallest Jamrah, the Middle Jamrah, and finally the Biggest Jamrah. A pilgrim can throw Jamarat from any floor of the Jamarat Bridge. It is very important for pilgrims to abide by the schedule of Tafweej (Group Dispatching) set by the organizers for throwing Jamarat and the directions of movement, in order to maintain the safety and security of others. The Jamarat Bridge is one of the pioneering projects that has made a civilizational and engineering leap in the service of pilgrims. The Jamarat Facility consists of four floors, in addition to the ground floor. It is 80 meters wide and has 12 entrances for Jamarat and 12 exits in the four directions, which reduces overcrowding. The Bridge is linked to the pilgrim camps.`,
+    image: hiltonsuitesImg,
+    description:
+      'Hilton Suites is located in the heart of the holy city of Makkah, overlooking the Holy Haram. Free Wi-Fi and separate private mosques for men and women on the hotel premises.',
     target: 'somelink',
+    title: 'Hilton Suites',
+  },
+  {
+    image: swissotelImg,
+    description:
+      'Swissotel Makkah is located in a high tower in the heart of the Islamic world, with views of the Holy City. The hotel is part of the magnificent Abraj Al Bait complex, facing the Holy Kaaba and providing direct access to the Grand Mosque from Ibrahim Al Khalil Street and the entrance to the Umm Al Qura Tunnel. There is also direct access to the hotel from the Abraj Al Bait complex.',
+    target: 'somelink',
+    title: 'Swissotel Makkah',
+  },
+  {
+    image: conradImg,
+    description:
+      'Conrad Makkah is located in the heart of the holy city of Makkah, just steps away from the Kaaba and the Holy Mosque. The hotel is easily accessible via Umm Al Qura Road connecting to Makkah-Jeddah Expressway. Guests can also enjoy the restaurant Available on-site.',
+    target: 'somelink',
+    title: 'Conrad',
+  },
+  {
+    image: jabalomarImg,
+    description:
+      'Jabal Omar Hyatt Regency is located in the heart of the holy city of Makkah. The hotel is just a minute walk from the Holy Mosque. Guests can enjoy free WiFi throughout the property. There are male and female prayer areas in the private parking level.',
+    target: 'somelink',
+    title: 'Jabal Omar Hyatt Regency',
+  },
+  {
+    image: movenpickhotelImg,
+    description:
+      'Mövenpick Hotel & Residence Hajar Tower Makkah is located in one of the tallest buildings in the world, overlooking the Grand Mosque, blending modern and traditional amenities, luxurious dining, and on-site shops.',
+    target: 'somelink',
+    title: 'Mövenpick Hotel & Residence Hajar Tower Makkah',
+  },
+  {
+    image: elafKindaImg,
+    description:
+      'Elaf Kinda Hotel is located next to the King Abdulaziz Waqf facing the Grand Mosque, between King Abdulaziz Gate and King Fahd Gate, a few steps from the Kaaba, and offers direct access to the Grand Mosque. It features elegant rooms with free Wi-Fi.',
+    target: 'somelink',
+    title: 'Elaf Kinda Hotel',
+  },
+  {
+    image: midanHotelImg,
+    description:
+      'The 5-star Midan Hotel features 2 restaurants, 1 lobby, 1 sports lounge, 1 poolside bar, and a very spacious room with a balcony overlooking the racetrack, as well as free WiFi. This property includes a 24-hour front desk, room service, and currency exchange to the guests.',
+    target: 'somelink',
+    title: 'Midan Hotel',
+  },
+  {
+    image: guesthouseImg,
+    description:
+      'Guest House Hotel is located in Makkah near the central bus station, where guests can easily reach Holy Haram. Free WiFi is available and all units feature a TV with satellite channels and a kitchen equipped with a fridge and washing machine. Each unit has a private bathroom with toiletries Free shower.',
+    target: 'somelink',
+    title: 'Guest House Hotel',
   },
 ];
 

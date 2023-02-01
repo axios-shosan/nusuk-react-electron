@@ -24,6 +24,11 @@ const TabsWrapper = styled(Tabs)(
     .Mui-selected {
       background-color: #1D2225 !important;
     }
+
+    .MuiTab-root {
+      width: 100%;
+      overflow: inherit;
+    }
 `
 );
 

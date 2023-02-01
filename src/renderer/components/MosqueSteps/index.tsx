@@ -13,6 +13,7 @@ const text = [
   `Performing Sa'I between Safa and Marwa while reciting " Indeed! Safa and Marwa are among the rites of Allah. So it is not a sin for him who performs Hajj or Umrah of the House (the Kaaba at Makkah) to travel between them (Safa and Marwah). And whoever does good voluntarily, then verily, Allah is All-Recognizer, All-Knower." (Surah Al Baqarah, 158). Sa'i starts in Safa then pilgrims proceed to Marwah and do what they did at Safa, repeating this seven times (going is one round and coming back is one round).`,
   'It is Sunnah for men to jog between the two (green) marks in pursuit.',
   'Upon completion of the Umrah, men must shave their hair or shorten it, while women cut an inch or less from it.',
+  'Upon completion of the Umrah, men must shave their hair or shorten it, while women cut an inch or less from it.',
 ];
 function MosqueSteps() {
   return (

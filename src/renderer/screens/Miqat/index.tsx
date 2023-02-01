@@ -13,7 +13,7 @@ export default function Miqat() {
         parallel to Miqat when arriving by air.
       </p>
       <section className={classes.secondSection}>
-        <MiqatMap />
+        {/* <MiqatMap /> */}
         <div className={classes.rightSecMap}>
           <h1 className={classes.header}>Al-Juhfah</h1>
           <hr className={classes.mapDivider} />
