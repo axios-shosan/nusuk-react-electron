@@ -4,6 +4,7 @@ import {
   Route,
   Navigate,
 } from 'react-router-dom';
+import { useState } from 'react';
 import './App.css';
 import MakkahLayout from './components/layouts/MakkahLayout';
 import Home from './screens/Home';
@@ -34,7 +35,9 @@ import Splash from './components/Splash';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
+  const [rendered, setRendered] = useState(false);
   function redirectToHomepage() {
+    setRendered(true);
     if (window.location.href !== '/home') window.location.href = '/home'; // or whatever your homepage would be
   }
 
@@ -49,7 +52,10 @@ export default function App() {
     >
       <Router>
         <Routes>
-          <Route path="/" element={<Splash />} />
+          <Route
+            path="/"
+            element={!rendered ? <Splash /> : <Navigate to={'/home'} />}
+          />
           <Route path="/home" element={<Home />} />
           <Route path="explore" element={<Explore />} />
 

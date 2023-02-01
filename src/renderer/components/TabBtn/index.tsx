@@ -16,7 +16,7 @@ const TabLabel = styled(Box)(
         text-align: center !important;
         padding-right: 15px;
         padding-left: 15px;
-        width: 250px;
+        width: 186px;
 `
 );
 
