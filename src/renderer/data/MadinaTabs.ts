@@ -5,7 +5,7 @@ import shoppingIcon from '../../Images/makkah/shopping.png';
 import pathIcon from '../../Images/makkah/path.png';
 
 const tabs = [
-  { name: 'Accomodation', icon: accomodationIcon, target: 'accomodation' },
+  { name: 'Accommodation', icon: accomodationIcon, target: 'accomodation' },
   { name: 'Landmarks', icon: landmarksIcon, target: 'landmarks' },
   { name: 'Shopping', icon: shoppingIcon, target: 'Shopping' },
   { name: 'Food & drinks', icon: foodIcon, target: 'food-drinks' },

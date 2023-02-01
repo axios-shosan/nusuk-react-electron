@@ -6,7 +6,7 @@ import styles from './style.module.css';
 function MakkahAccomodation() {
   return (
     <>
-      <h1 className={styles.heading}>Accomodation</h1>
+      <h1 className={styles.heading}>Accommodation</h1>
       <hr className={styles.divider} />
       <ScrollCarousel elements={content} />
     </>

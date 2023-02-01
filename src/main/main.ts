@@ -74,8 +74,8 @@ const createWindow = async () => {
     width: 1080,
     height: 1920,
     autoHideMenuBar: true,
-    resizable: false,
-    fullscreen: true,
+    resizable: true,
+    fullscreen: false,
     icon: getAssetPath('icon.png'),
     webPreferences: {
       devTools: true,

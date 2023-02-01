@@ -42,9 +42,6 @@ const Explore = () => {
       <div className={classes.carouselContainer}>
         <CarouselExplore />
       </div>
-      <Link className="homeLink" to="/explore">
-        <Button extraClasses="homeBtn">Home</Button>
-      </Link>
     </div>
   );
 };

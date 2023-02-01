@@ -36,9 +36,10 @@ const pillarsData = [
     image: saiImage,
     alt: 'Sai',
     text: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+      'Sa’i is one of the integral rites of Hajj and Umrah. Allah says in the Holy Quran "Indeed! Safa and Marwa are among the rites of Allah." Upon completion of Tawaf, it is Sunnah for Pilgrims to pray two short Rak’as behind Maqam Ibrahim.',
+      `Pilgrims find inside the Masjid al-Haram guiding panels that guide them to Al Mas'a and point to Safa, where the place of the beginning of Sa'i.`,
+      `Sa’i starts from Safa and ends with Marwah, which are two small hills inside the Holy Mosque near the Kaaba. Pilgrims walk back and forth seven times between the two small hills of Safa and Marwa. Walking the distance from Safa to Marwa is one lap, and so on. It is Sunnah for the pilgrim during Sa'I to supplicate or to read verses from the Quran.`,
+      `The length of Al Mas'a is 394 m, the total walking distance in the seven rounds is approximately 2761 m, and the average time to complete Sa'i is 45-55 minutes.`,
     ],
   },
 ];

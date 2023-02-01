@@ -38,7 +38,7 @@ const content = [
     target: '',
   },
   {
-    image: img3,
+    image: img6,
     title: 'Al Tandoor',
     description: `Al Tandoor Restaurant is considered one of the most important Indian restaurants in Makkah because of its delicious dishes, recipes, and the best taste of its Indian food.`,
     target: '',

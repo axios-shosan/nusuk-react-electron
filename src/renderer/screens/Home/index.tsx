@@ -31,7 +31,9 @@ export default function Home() {
             }}
             onInit={(typewriter) => {
               typewriter
-                .typeString('Welcome To Nusuke Your Guide To makkah and Madina')
+                .typeString(
+                  'Welcome To Nusuk Your Official Guide To makkah and Madina'
+                )
                 .callFunction(() => {
                   console.log('String typed out!');
                 })
