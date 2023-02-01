@@ -24,6 +24,11 @@ body {
   /* overflow-y: hidden; */
 }
 
+h1 {
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  overflow: hidden;
+}
+
 a:link {
   color: white;
   text-decoration: none;

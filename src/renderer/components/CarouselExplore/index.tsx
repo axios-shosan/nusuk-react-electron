@@ -15,7 +15,7 @@ const carouselData = [
     title: 'About Nusuk',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/',
+    href: '/about',
   },
   {
     img: UmrahZiyarahImage,
@@ -31,7 +31,7 @@ const carouselData = [
     title: 'Makkah',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/makkah',
+    href: '/makkah/accomodation',
   },
   {
     img: MadinaImage,
@@ -39,7 +39,7 @@ const carouselData = [
     title: 'Madina',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/',
+    href: '/madina/accomodation',
   },
 ];
 
@@ -51,20 +51,6 @@ export default function CarouselExplore() {
     const elements = document.getElementsByClassName('slide');
     const index = wrapper.scrollLeft / elements[0].scrollWidth;
     setActiveSection(Math.round(index));
-  };
-
-  const handleClickScroll = (action: 'prev' | 'next') => {
-    const elements = document.getElementsByClassName('slide');
-
-    if (action === 'prev') {
-      if (activeSection === 0) return;
-      elements[activeSection - 1].scrollIntoView({ behavior: 'smooth' });
-      setActiveSection(activeSection - 1);
-    } else {
-      if (activeSection === elements.length - 1) return;
-      elements[activeSection + 1].scrollIntoView({ behavior: 'smooth' });
-      setActiveSection(activeSection + 1);
-    }
   };
 
   const handleLinkClick = (index: number) => {

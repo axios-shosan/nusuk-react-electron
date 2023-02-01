@@ -7,7 +7,6 @@
   border: solid #b49164 2px;
   transition: all ease-in 0.1s;
   cursor: pointer;
-  opacity: 0.9;
   margin: 0;
   font-size: 20px;
   font-weight: 500;
@@ -65,7 +64,7 @@
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: darken(#23282c, 15%);
+  background-color: darken(#b49164, 15%);
   transition: all 0.3s;
   border-radius: 10rem;
   z-index: -1;

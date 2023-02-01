@@ -4,8 +4,9 @@ import styles from './style.module.css';
 function ScrollCarousel({ elements }: { elements: ScrollCardProps[] }) {
   return (
     <div className={styles.wrapper}>
-      {elements.map((element) => (
+      {elements.map((element, index) => (
         <ScrollCard
+          key={index}
           image={element.image}
           title={element.title}
           description={element.description}

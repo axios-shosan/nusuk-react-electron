@@ -1,0 +1,47 @@
+.wrapper {
+  padding: 0 55px;
+}
+
+.hero {
+  position: relative;
+}
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.heading {
+  position: relative;
+  font-family: 'Displace-Medium';
+  font-size: 40px;
+  color: #b29164;
+  margin: -50px 0 0 0;
+  z-index: 1000;
+}
+
+.about {
+  font-family: 'Inter';
+  font-size: 20px;
+  opacity: 0.7;
+  line-height: 133%;
+  margin-bottom: 70px;
+}
+
+.divider {
+  border: 0;
+  width: 830px;
+  /* border: 1px solid #5d5d5d; */
+  height: 1px;
+  background-color: #5d5d5d;
+  margin: 28px 0;
+  animation: expand-divider 2s ease-out 1 forwards normal;
+}
+
+.main {
+  background-color: #1d2225;
+  width: 1080px;
+  height: 741px;
+  padding: 75px 55px;
+}

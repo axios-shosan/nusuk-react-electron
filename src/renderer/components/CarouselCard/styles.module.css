@@ -1,0 +1,33 @@
+.temp_wrapper {
+  height: 100%;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.img {
+  width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.temp_1 {
+  font-family: 'Displace-Medium';
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.temp_2 {
+  font-family: 'Inter';
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 16px;
+}
+
+.temp_p {
+  font-family: 'Inter';
+  font-size: 18px;
+  opacity: 0.7;
+}

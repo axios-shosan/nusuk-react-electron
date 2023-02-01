@@ -18,7 +18,7 @@ function Header({ mainHeading, subHeading }: HeaderProps) {
         <h1>{mainHeading}</h1>
         <p>{subHeading}</p>
       </div>
-      <Button onClick={() => navigate('/')}>Home</Button>
+      <Button onClick={() => navigate('/explore')}>Home</Button>
     </header>
   );
 }
