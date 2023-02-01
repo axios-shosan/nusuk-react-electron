@@ -1,0 +1,69 @@
+.container {
+  max-height: 980px;
+  overflow-y: scroll;
+}
+
+.title {
+  min-height: 38px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: Displace-Medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #b29164;
+  margin-bottom: 28px;
+}
+
+.divider {
+  border: 0;
+  border: 1px solid #5d5d5d;
+  height: 0px;
+  margin-bottom: 28px;
+  -webkit-animation: expand-divider 2s ease-out 1 forwards normal;
+  animation: expand-divider 2s ease-out 1 forwards normal;
+}
+
+.container > * {
+  width: 90%;
+}
+
+.container > h2 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  color: #b29164;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.container > h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 48px;
+  color: #b29164;
+  margin-bottom: 8px;
+  margin-top: 13px;
+}
+
+.container > p {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.container > p > span {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #b29164;
+}
+/*# sourceMappingURL=style.module.css.map */

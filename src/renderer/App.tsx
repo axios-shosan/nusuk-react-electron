@@ -27,7 +27,8 @@ import MadinaShopping from './screens/MadinaShopping';
 import MadinaFood from './screens/MadinaFood';
 import ToMadina from './screens/ToMadina';
 import About from './screens/About';
-import Header from './components/Header';
+import UmrahAccessibility from './screens/UmrahAccessibility';
+import Ziyarah from './screens/Ziyarah';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -46,8 +47,9 @@ export default function App() {
             <Route path="miqat" element={<Miqat />} />
             <Route path="mosque" element={<Mosque />} />
             <Route path="tips" element={<Tips />} />
-            <Route path="accessibility" />
-            <Route path="ziyarah" />
+
+            <Route path="accessibility" element={<UmrahAccessibility />} />
+            <Route path="ziyarah" element={<Ziyarah />} />
           </Route>
 
           <Route path="makkah" element={<MakkahLayout />}>

@@ -13,7 +13,7 @@ const tabs = [
   { name: 'Arrival to Holly Mosque', icon: arrivalIcon, target: 'mosque' },
   { name: 'Important Tips', icon: importantIcon, target: 'tips' },
   { name: 'Accessibility', icon: accessebilityIcon, target: 'accessibility' },
-  { name: 'Ziyarah', icon: ziyarahIcon, target: 'ziayarah' },
+  { name: 'Ziyarah', icon: ziyarahIcon, target: 'ziyarah' },
 ];
 
 export default tabs;
