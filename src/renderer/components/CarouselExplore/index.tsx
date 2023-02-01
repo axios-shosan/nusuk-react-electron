@@ -14,8 +14,7 @@ const carouselData = [
     img: AboutNusukImage,
     alt: 'About Nusuk',
     title: 'About Nusuk',
-    description:
-      'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
+    description: 'The Holistic Journey Platform.',
     href: '/about',
   },
   {
@@ -23,15 +22,14 @@ const carouselData = [
     alt: 'Umrah & Ziyarah',
     title: 'Umrah & Ziyarah',
     description:
-      'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
+      'All you need to know about Rituals to perform in Umrah and Ziyarah Al Masjid An Nabawi.',
     href: '/umrah/about',
   },
   {
     img: MakkahImage,
     alt: 'Makkah',
     title: 'Makkah',
-    description:
-      'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
+    description: 'Makkah, the holiest city for Muslims.',
     href: '/makkah/accomodation',
   },
   {
@@ -39,14 +37,14 @@ const carouselData = [
     alt: 'Madina',
     title: 'Madina',
     description:
-      'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
+      'The second holiest city in all of the KSA. Learn more about the Medina region here!',
     href: '/madina/accomodation',
   },
   {
     img: Logo,
     alt: 'website',
     title: 'Frame',
-    description: 'Click here to visit the website',
+    description: 'Click here to access the nusuk website Live !',
     href: '/iframe',
   },
 ];
