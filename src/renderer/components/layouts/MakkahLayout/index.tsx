@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 import Header from 'renderer/components/Header';
 import Navigation from 'renderer/components/Navigation';
 import makkahHero from '../../../../Images/makkah_hero.png';
@@ -15,7 +16,27 @@ function MakkahLayout() {
         <img src={makkahHero} alt="makkah hero" />
       </div>
       <div className={styles.wrapper}>
-        <h1 className={styles.heading}>Holy site</h1>
+        <h1 className={styles.heading}>
+          <Typewriter
+            options={{
+              loop: false,
+              cursor: '',
+              delay: 75,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString('Holy Site')
+                .callFunction(() => {
+                  console.log('String typed out!');
+                })
+
+                .callFunction(() => {
+                  console.log('All strings were deleted');
+                })
+                .start();
+            }}
+          />
+        </h1>
         <hr className={styles.divider} />
 
         <p className={styles.about}>

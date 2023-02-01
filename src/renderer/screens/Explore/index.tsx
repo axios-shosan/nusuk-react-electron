@@ -1,3 +1,4 @@
+import Typewriter from 'typewriter-effect';
 import Hero from 'renderer/components/Hero';
 import CarouselExplore from 'renderer/components/CarouselExplore';
 import classes from './style.module.css';
@@ -13,8 +14,27 @@ const Explore = () => {
       <div className={classes.heroContainer}>
         <Hero image={heroImage} />
         <h1>
-          Welcome to Nusuk <br /> your official guide <br /> to Makkah and
-          Madina
+          <Typewriter
+            options={{
+              loop: false,
+              cursor: '',
+              delay: 75,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString(
+                  'Welcome to Nusuk <br /> your official guide <br /> to Makkah and Madina'
+                )
+                .callFunction(() => {
+                  console.log('String typed out!');
+                })
+
+                .callFunction(() => {
+                  console.log('All strings were deleted');
+                })
+                .start();
+            }}
+          />
         </h1>
       </div>
       <div className={classes.carouselContainer}>

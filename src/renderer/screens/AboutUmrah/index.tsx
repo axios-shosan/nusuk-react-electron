@@ -1,3 +1,4 @@
+import Typewriter from 'typewriter-effect';
 import image from 'Images/AboutUmrah.png';
 import FadeInSection from '../../components/FadeInSection';
 
@@ -17,7 +18,27 @@ const data = {
 const AboutUmrah = () => {
   return (
     <div>
-      <h1 className={classes.title}>{data.title}</h1>
+      <h1 className={classes.title}>
+        <Typewriter
+          options={{
+            loop: false,
+            cursor: '',
+            delay: 75,
+          }}
+          onInit={(typewriter) => {
+            typewriter
+              .typeString(data.title)
+              .callFunction(() => {
+                console.log('String typed out!');
+              })
+
+              .callFunction(() => {
+                console.log('All strings were deleted');
+              })
+              .start();
+          }}
+        />
+      </h1>
       <hr className={classes.divider} />
 
       <img src={data.image} alt={data.alt} className={classes.image} />

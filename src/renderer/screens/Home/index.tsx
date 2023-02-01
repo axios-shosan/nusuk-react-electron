@@ -1,10 +1,13 @@
-import { useEffect } from 'react';
+/* eslint-disable */
+// @ts-ignore
 import Button from 'renderer/components/Button';
 import { useNavigate } from 'react-router-dom';
 import Logo from '../../../../assets/logo.svg';
 import wavesBg from '../../../../assets/images/hero-wave-dark.png';
 import waves from '../../../../assets/images/Waves.png';
 import Classes from './style.module.css';
+import { useEffect } from 'react';
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -19,9 +22,27 @@ export default function Home() {
           className={`${Classes.waves} ${Classes.maskedWaves}`}
         />
         <img src={Logo} alt="Logo" className={Classes.logo} />
-        <h1 className={Classes.title}>
-          Welcome to Nusuk your official guide to Makkah and Madina
-        </h1>
+        <div id="para1" className={Classes.title}>
+          <Typewriter
+            options={{
+              loop: false,
+              cursor: '',
+              delay: 75,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString('Welcome To Nusuke Your Guide To makkah and Madina')
+                .callFunction(() => {
+                  console.log('String typed out!');
+                })
+
+                .callFunction(() => {
+                  console.log('All strings were deleted');
+                })
+                .start();
+            }}
+          />
+        </div>
         <Button
           extraClasses={`${Classes.homeBtn}`}
           onClick={() => {

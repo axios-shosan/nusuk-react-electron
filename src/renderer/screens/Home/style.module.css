@@ -8,6 +8,21 @@
   height: 100vh;
 }
 
+.writer {
+  /* position: absolute; */
+  opacity: 0;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.title div {
+  width: fit-content;
+  width: fit-content;
+  display: inline-block;
+}
+
 .logo {
   position: absolute;
   width: 345px;

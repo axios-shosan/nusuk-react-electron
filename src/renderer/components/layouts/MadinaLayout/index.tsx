@@ -1,3 +1,4 @@
+import Typewriter from 'typewriter-effect';
 import { Outlet } from 'react-router-dom';
 import Header from 'renderer/components/Header';
 import Navigation from 'renderer/components/Navigation';
@@ -12,7 +13,27 @@ function MadinaLayout() {
       <Header mainHeading="Madina" />
       <Hero image={MadinaHero} />
       <div className={styles.wrapper}>
-        <h1 className={styles.heading}>Al Madina Al Munawara</h1>
+        <h1 className={styles.heading}>
+          <Typewriter
+            options={{
+              loop: false,
+              cursor: '',
+              delay: 75,
+            }}
+            onInit={(typewriter) => {
+              typewriter
+                .typeString('Al Madina Al Munawara')
+                .callFunction(() => {
+                  console.log('String typed out!');
+                })
+
+                .callFunction(() => {
+                  console.log('All strings were deleted');
+                })
+                .start();
+            }}
+          />
+        </h1>
         <hr className={styles.divider} />
 
         <p className={styles.about}>

@@ -1,3 +1,4 @@
+import Typewriter from 'typewriter-effect';
 import React from 'react';
 import image from 'Images/AboutUmrah.png';
 import styles from './styles.module.css';
@@ -51,7 +52,27 @@ export default function AboutContent() {
       {content.map((element, index) => {
         return (
           <>
-            <h1 className={styles.title}>{element.title}</h1>
+            <h1 className={styles.title}>
+              <Typewriter
+                options={{
+                  loop: false,
+                  cursor: '',
+                  delay: 75,
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString(element.title)
+                    .callFunction(() => {
+                      console.log('String typed out!');
+                    })
+
+                    .callFunction(() => {
+                      console.log('All strings were deleted');
+                    })
+                    .start();
+                }}
+              />
+            </h1>
             <hr className={styles.divider} />
 
             {element.body.map((e, i) => (
