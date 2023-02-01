@@ -26,6 +26,7 @@ import MadinaLandmarks from './screens/MadinaLandmarks';
 import MadinaShopping from './screens/MadinaShopping';
 import MadinaFood from './screens/MadinaFood';
 import ToMadina from './screens/ToMadina';
+import About from './screens/About';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -36,6 +37,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
 
           <Route path="explore" element={<Explore />} />
+
+          <Route path="/about" element={<About />} />
 
           <Route path="/umrah" element={<UmrahLayout />}>
             <Route path="about" element={<AboutUmrah />} />

@@ -15,7 +15,7 @@ const carouselData = [
     title: 'About Nusuk',
     description:
       'Follow the simple steps to satisfy entry requirements to Saudi Arania.',
-    href: '/',
+    href: '/about',
   },
   {
     img: UmrahZiyarahImage,
