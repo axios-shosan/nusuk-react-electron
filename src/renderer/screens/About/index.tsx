@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 export default function About() {
   return (
     <div>
-      <Header mainHeading="Umrah & Ziyarah" />
+      <Header mainHeading="About Nusuk" />
       <Hero image={AboutHeroImg} />
       <main className={styles.main}>
         <AboutContent />

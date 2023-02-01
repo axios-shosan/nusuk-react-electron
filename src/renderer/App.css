@@ -24,6 +24,17 @@ body {
   /* overflow-y: hidden; */
 }
 
+.homeLink {
+  position: fixed;
+  bottom: 40px;
+  left: 430px;
+  /* transform: translateX(430px); */
+}
+
+.homeBtn {
+  border-radius: 20px !important;
+}
+
 h1 {
   animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
   overflow: hidden;
@@ -49,18 +60,28 @@ a:active {
   text-decoration: none;
 }
 
-p,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  animation: fadeInText 5s;
+  /* animation: fadeInText 5s; */
+  /* color: hsl(0 0% 0% / 0.7); */
+  opacity: 0;
+  transform: translateY(2rem);
+  animation: fadeInUp ease 2s forwards !important;
 }
 
 img {
   animation: fadeIn 4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes fadeIn {

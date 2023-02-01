@@ -3,6 +3,7 @@ import {
   Routes,
   Route,
   Navigate,
+  Link,
 } from 'react-router-dom';
 import './App.css';
 import MakkahLayout from './components/layouts/MakkahLayout';
@@ -29,6 +30,7 @@ import ToMadina from './screens/ToMadina';
 import About from './screens/About';
 import UmrahAccessibility from './screens/UmrahAccessibility';
 import Ziyarah from './screens/Ziyarah';
+import Button from './components/Button';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
@@ -70,6 +72,9 @@ export default function App() {
             <Route path="to-madina" element={<ToMadina />} />
           </Route>
         </Routes>
+        <Link className="homeLink" to="/">
+          <Button extraClasses="homeBtn">Home</Button>
+        </Link>
       </Router>
     </>
   );

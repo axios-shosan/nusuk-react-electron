@@ -1,9 +1,13 @@
 .wrapper {
-  padding: 0 55px;
+  padding: 0 65px;
 }
 
 .hero {
   position: relative;
+}
+
+.hero img {
+  animation: none;
 }
 
 .waves {
@@ -17,7 +21,7 @@
   font-family: 'Displace-Medium';
   font-size: 40px;
   color: #b29164;
-  margin: -50px 0 0 0;
+  margin: -100px 0 0 0;
   z-index: 1000;
 }
 
@@ -26,7 +30,7 @@
   font-size: 20px;
   opacity: 0.7;
   line-height: 133%;
-  margin-bottom: 70px;
+  margin-bottom: 35px;
 }
 
 .divider {
@@ -35,7 +39,7 @@
   /* border: 1px solid #5d5d5d; */
   height: 1px;
   background-color: #5d5d5d;
-  margin: 28px 0;
+  margin: 18px 0;
   animation: expand-divider 2s ease-out 1 forwards normal;
 }
 
