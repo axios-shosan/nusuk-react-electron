@@ -62,7 +62,7 @@ a:active {
 }
 
 p {
-  animation: fadeIn ease 2s forwards !important;
+  animation: fadeIn ease 2.5s forwards !important;
 }
 
 h1,

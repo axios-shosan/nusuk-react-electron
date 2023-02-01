@@ -27,7 +27,7 @@ export default function Home() {
             options={{
               loop: false,
               cursor: '',
-              delay: 75,
+              delay: 50,
             }}
             onInit={(typewriter) => {
               typewriter

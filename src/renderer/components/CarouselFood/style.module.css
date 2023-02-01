@@ -50,6 +50,21 @@
   }
 }
 
+/* .slides p {
+  animation: none !important;
+  animation: fadeInText 1s ease 2s forwards !important;
+} */
+
+@keyframes fadeInText {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .slides h1,
 .slides h2,
 .slides h3,

@@ -9,7 +9,7 @@ export default function Iframe() {
       <iframe
         className={classes.frame}
         title="Nusuk"
-        src="https://www.nusuk.sa/%22%3E"
+        src="https://www.nusuk.sa/"
       />
       ;
       <Link className="homeLink" to="/explore">

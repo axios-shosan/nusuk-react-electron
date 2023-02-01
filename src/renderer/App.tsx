@@ -30,11 +30,12 @@ import About from './screens/About';
 import UmrahAccessibility from './screens/UmrahAccessibility';
 import Ziyarah from './screens/Ziyarah';
 import Iframe from './components/Iframe';
+import Splash from './components/Splash';
 // import Makkah from './screens/Makkah';
 
 export default function App() {
   function redirectToHomepage() {
-    if (window.location.href !== '/') window.location.href = '/'; // or whatever your homepage would be
+    if (window.location.href !== '/home') window.location.href = '/home'; // or whatever your homepage would be
   }
 
   let redirectTimeoutId: number;
@@ -48,7 +49,8 @@ export default function App() {
     >
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Splash />} />
+          <Route path="/home" element={<Home />} />
           <Route path="explore" element={<Explore />} />
 
           <Route path="/about" element={<About />} />

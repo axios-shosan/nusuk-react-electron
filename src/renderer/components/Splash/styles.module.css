@@ -1,0 +1,23 @@
+.splashLogo {
+  opacity: 0;
+  animation: fadeInLogo 2s ease 2s forwards !important;
+}
+
+.splashContainer {
+  width: 1080px;
+  height: 1920px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeInLogo {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
