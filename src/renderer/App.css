@@ -49,6 +49,19 @@ a:active {
   text-decoration: none;
 }
 
+img {
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @font-face {
   font-family: Displace-Medium;
   src: url('../Fonts/Displace/Displace20-Medium.0d89bcfd.ttf')

@@ -2,7 +2,12 @@
   position: relative;
 }
 
+.container img {
+  animation: none;
+}
+
 .wavesBg {
+  opacity: 1;
   position: absolute;
   bottom: 0;
   width: 1080px;
@@ -27,7 +32,7 @@
     rgba(35, 40, 44, 0.9) 80%,
     rgba(35, 40, 44, 1) 95%
   );
-  animation: collaps-shadow 2s ease-out 1;
+  animation: collaps-shadow 2s ease-out 1 !important;
   width: 0%;
 }
 
@@ -39,7 +44,7 @@
   background-position: bottom;
   background-size: contain 100%;
   background-repeat: no-repeat;
-  animation: extend-image 2s ease-in-out 1;
+  animation: extend-image 2s ease-in-out 1 !important;
 }
 
 .maskedWaves {
@@ -47,7 +52,7 @@
   mask-image: linear-gradient(90deg, #0000, #fff, #0000);
   -webkit-mask-size: 300% 100%;
   mask-size: 300% 100%;
-  animation: clip-fade 4s infinite alternate;
+  animation: clip-fade 4s infinite alternate !important;
   -webkit-mask-position: right;
   mask-position: right;
 }
