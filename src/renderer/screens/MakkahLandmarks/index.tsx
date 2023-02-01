@@ -5,7 +5,7 @@ import styles from './style.module.css';
 export default function MakkahLandmarks() {
   return (
     <>
-      <h1 className={styles.heading}>Holy Site</h1>
+      <h1 className={styles.heading}>Landmarks</h1>
       <hr className={styles.divider} />
       <ScrollCarousel elements={content} />
     </>

@@ -1,100 +1,69 @@
-import safwahImg from '../../../Images/makkah/Safwah.jpeg';
-import rafflesImg from '../../../Images/makkah/Raffles.jpeg';
-import fairmontImg from '../../../Images/makkah/Fairmont.jpeg';
-import daraltawhidintercontinentalImg from '../../../Images/makkah/dar_al_tawhid_intercontinental.jpeg';
-import hiltonsuitesImg from '../../../Images/makkah/Hilton_Suites.jpeg';
-import swissotelImg from '../../../Images/makkah/Swissotel.jpeg';
-import conradImg from '../../../Images/makkah/Conrad.jpeg';
-import jabalomarImg from '../../../Images/makkah/Jabal_Omar_Hyatt_Regency.jpeg';
-import movenpickhotelImg from '../../../Images/makkah/Movenpick_hotel_Hajar_Tower.jpeg';
-import elafKindaImg from '../../../Images/makkah/Elaf_Kinda.jpeg';
-import guesthouseImg from '../../../Images/makkah/Guest_house.jpeg';
-import midanHotelImg from '../../../Images/makkah/Midan_Hotel.png';
+// import img1 from '../../../Images/makkah/landmark/makkah-landmark-1.jpeg';
+import img1 from '../../../Images/makkah/landmark/makkah-landmark-1.jpeg';
+import img2 from '../../../Images/makkah/landmark/makkah-landmark-2.png';
+import img3 from '../../../Images/makkah/landmark/makkah-landmark-3.jpeg';
+import img4 from '../../../Images/makkah/landmark/makkah-landmark-4.jpeg';
+import img5 from '../../../Images/makkah/landmark/makkah-landmark-5.jpeg';
+import img6 from '../../../Images/makkah/landmark/makkah-landmark-6.jpeg';
+import img7 from '../../../Images/makkah/landmark/makkah-landmark-7.png';
+import img8 from '../../../Images/makkah/landmark/makkah-landmark-8.png';
+import img9 from '../../../Images/makkah/landmark/makkah-landmark-9.png';
 
 const cards = [
   {
-    image: safwahImg,
-    description:
-      'Located opposite the King Abdul Aziz Gate in Makkah, Al Safwah Hotel offers modern and upscale accommodation in a tall building in the Grand Mosque. Provide free Wi-Fi service. The rooms at Al Safwa Royal Orchid Hotel are furnished with contemporary furniture and are equipped with a flat-screen TV with satellite channels. They are all air-conditioned and have an en suite bathroom with selected toiletries.',
+    image: img1,
+    title: `World's Largest Clock Tower`,
+    description: `Makkah Clock Royal Tower rises more than 400 meters above ground. It is the largest clock tower in the world, with a diameter of more than 40 meters. The clock weighs 36 thousand tons. The clock can be seen from all areas of Makkah al-Mukarramah from a distance of more than eight kilometers. The clock consists of four interfaces, and the largest word (Allah is Great) in the world can be seen above the clock, where the letter (A) in the word (Allah) is more than 23 meters long. The diameter of the crescent is 23 meters, constituting the largest crescent that has been made so far. The two testimonies of faith (I testify that there is none worthy of worship except Allah and that Muhammad is His slave and messenger) can also be seen. The clock was designed in the Islamic style according to the strictest safety standards.`,
     target: 'somelink',
-    title: 'Al Safwah',
   },
   {
-    image: rafflesImg,
-    description:
-      'Raffles Palace is an exclusive all-suite hotel with stunning views of the Holy Mosque and the Kaaba in a prime location right next to the Grand Mosque. Professional butlers provide the signature Raffles style of service. Luxurious Raffles décor with marble floors and oriental rugs makes you feel right at home.',
+    image: img2,
+    title: 'Museums',
+    description: `Makkah has a host of fascinating, intimate museums that shed light on the city’s history as the birthplace of Islam and a crossroads for travelers from all over the world for centuries. The Exhibition of the Two Holy Mosques guides visitors through the construction and many phases of the Masjid Al Haram in Makkah as well as the Masjid An Nabawi in Medina—browse intricate marble arches, reclaimed wooden doors and much more, saved and restored from previous iterations of the mosques. You’ll have to get permission to visit the Kiswah Museum next door—though it’s well worth to see where the kiswah, the 670-kilogram black silk cloth draped on the Kaaba, is made by hand, and woven with calligraphic inscriptions done in threads made from real gold and silver. At the Makkah Museum, set in the opulent Al Zahir Palace, you can learn about the region’s pre-Islamic history, dating back to ancient rock art, and see some early-Islamic coins from Byzantine, Abbasid and Umayyad dynasties as well as rare copies of centuries-old Qurans and other important texts.`,
     target: 'somelink',
-    title: 'Raffles',
   },
   {
-    image: fairmontImg,
-    description:
-      'Fairmont hotel is located just 100 meters from the Holy Mosque, inside the Makkah Al Mukarramah Clock Tower, and is considered one of the tallest buildings in the world. It features a fully equipped fitness center, hot tub, sauna, and steam room. It offers concierge services around the clock.',
+    image: img3,
+    title: 'Jabal al-Noor (Mount of Light)',
+    description: `The place where Jibreel first met the Prophet, may peace and prayers be upon him, and revealed to him the opening verses of the Qur’an (Recite in the name of your Lord who created). It is located 4 kilometers away from the northeastern side of the Holy Mosque. It was called Jabal al-Noor, as the lights of prophecy emerged there. Its height is 642 meters. It has a steep slope from 380 meters to 500 meters above sea level. It is five kilometers long and 250 meters wide. Its top resembles the camel's hump. In Jabal al-Noor, there is the Cave of Hiraa, which is one of the most important places in the history of Islam and the prophecy, as the Prophet, may peace and prayers be upon him, used to seclude himself to worship Allah before the prophecy, away from the people of Makkah. It is a gap at the top of Jabal al-Noor. Its entrance faces the northern direction, and it is four cubits long and one and three-fourths cubits wide. A person who enters the Cave faces the Kaaba. Whoever stands at the top of Jabal al-Noor can see Makkah and its buildings.`,
     target: 'somelink',
-    title: 'Fairmont',
   },
   {
-    image: daraltawhidintercontinentalImg,
-    description:
-      'Dar Al Tawheed Contenintal hotel is distinguished by its location, just steps away from the Holy Mosque and the Kaaba. There are two private entrances to the Grand Mosque directly from the hotel gate, giving our distinguished guests comfort and privacy while performing Hajj and Umrah.',
+    image: img4,
+    title: 'Endowment of King Abdul Aziz for the Two Holy Mosques',
+
+    description: `Endowment of King Abdul Aziz for the Two Holy Mosques Project is one of the largest architectural projects in the world. It is developed on 1.5 million square meters. It consists of seven adjacent towers with a height of 600 meters. Their capacity is 65 thousand people. The project includes a mosque accommodating 3,300 worshipers, in addition to parking lots linked to underground tunnels under the building and accommodating more than 1,000 vehicles. They also include water tanks with the capacity of more than m3 53,000, for water provision, especially at peak times, and around the clock.`,
     target: 'somelink',
-    title: 'Dar Al Tawhid InterContinental',
   },
   {
-    image: hiltonsuitesImg,
-    description:
-      'Hilton Suites is located in the heart of the holy city of Makkah, overlooking the Holy Haram. Free Wi-Fi and separate private mosques for men and women on the hotel premises.',
+    image: img5,
+    title: 'Kiswah (Covering) of the Kaaba',
+    description: `The Kiswah of the Kaaba is an integral part of the history of the Kaaba itself. It consists of black silk on which verses from the Holy Qur’an are embroidered with gold water. It consists of four pieces distributed on the faces of the Kaaba, in addition to a fifth piece, which is a curtain on the door of the Kaaba. The manufacturing of the Kiswah is supervised by the Kiswah Factory of the Holy Kaaba, which is located in the center of Makkah Al-Mukarramah. The Kiswah is replaced with a new one once a year during Hajj, after the pilgrims go to Arafah.`,
     target: 'somelink',
-    title: 'Hilton Suites',
   },
   {
-    image: swissotelImg,
-    description:
-      'Swissotel Makkah is located in a high tower in the heart of the Islamic world, with views of the Holy City. The hotel is part of the magnificent Abraj Al Bait complex, facing the Holy Kaaba and providing direct access to the Grand Mosque from Ibrahim Al Khalil Street and the entrance to the Umm Al Qura Tunnel. There is also direct access to the hotel from the Abraj Al Bait complex.',
+    image: img6,
+    title: 'Door of the Kaaba',
+    description: `It is located in the eastern side of the Kaaba. It rises from the ground by more than 222 cm from Shazrawan. The door is 318 cm high, 170 cm wide, and about half a meter deep. Previously, the Kaaba had a hole to enter it, which was then replaced with a door, which had a long history and has been changed several times. King Abdulaziz bin Abdul Rahman Al Saud, may his soul rest in peace, commanded that a new door be manufactured in 1363 AH. It was then made of aluminum with a thickness of 2.5 cm and a height of 3.10 meters. It was supported with bars of iron. Then, the outer face of the door was covered with plates of silver plated with gold. The door was decorated with the fine names of Allah. During the reign of King Khalid bin Abdul Aziz Al Saud, may Allah have mercy on him, he commanded the door to be replaced with a new one made of pure gold, which is currently in place. For a long time, the door had been opened irregularly, which was dangerous to the lives of those who were in the crowd. This led to the door being opened only twice a year. The first time is in the month of Sha’ban, for washing the Kaaba, and the second time is at the beginning of Dhul-Hijjah, for washing the Kaaba and hanging the new Kiswah.`,
     target: 'somelink',
-    title: 'Swissotel Makkah',
   },
   {
-    image: conradImg,
-    description:
-      'Conrad Makkah is located in the heart of the holy city of Makkah, just steps away from the Kaaba and the Holy Mosque. The hotel is easily accessible via Umm Al Qura Road connecting to Makkah-Jeddah Expressway. Guests can also enjoy the restaurant Available on-site.',
+    image: img7,
+    title: 'Cave of Thawr',
+    description: `The place to which the Prophet and his companion, Abu Bakr Al-Siddiq, lay hidden while they were on their way to Madina during Hijrah (Migration). It is located to the northern side of Thawr mountain, to the south of Makkah. Its height is 760 meters above sea level. It is about four kilometers away from the southern side of Makkah al-Mukarramah. It is a hollow rock of 1.25 m high. It has two entrances, one to the western side, by which the Prophet and his companion entered, and another entrance to the eastern side.`,
     target: 'somelink',
-    title: 'Conrad',
   },
   {
-    image: jabalomarImg,
-    description:
-      'Jabal Omar Hyatt Regency is located in the heart of the holy city of Makkah. The hotel is just a minute walk from the Holy Mosque. Guests can enjoy free WiFi throughout the property. There are male and female prayer areas in the private parking level.',
+    image: img8,
+    title: 'The Longest Pedestrian Road in the World',
+    description: `The Kingdom of Saudi Arabia built the longest pedestrian road in the world. It is more than 25 kilometers long from Jabal Al Rahma (Mount of Mercy) in Arafah, to Mina, passing through Muzdalifah, to facilitate the movement of pilgrims according to the highest international standards, in order to provide pilgrims with comfort and safety during movement between the holy sites “Arafah – Muzdalifah, and Mina”. It includes 4 tracks. The first road is 5,100 linear meters long, the second is 7,580 linear meters long, the third is 7,556 linear meters long, and the fourth is 4,620 linear meters long. For the comfort of pilgrims, a track includes 1,000 seats, shades for sun protection, 57 directional boards, more than 400 high-tech lighting poles, 810 lanterns (LED), 25 lighting towers of 30 meters high, and 100 lanterns of 100 watts. More than 400 garbage bins have been installed on both sides of the road.`,
     target: 'somelink',
-    title: 'Jabal Omar Hyatt Regency',
   },
   {
-    image: movenpickhotelImg,
-    description:
-      'Mövenpick Hotel & Residence Hajar Tower Makkah is located in one of the tallest buildings in the world, overlooking the Grand Mosque, blending modern and traditional amenities, luxurious dining, and on-site shops.',
+    image: img9,
+    title: 'The Mashaer Train',
+    description: `The railway line that facilitates the arrival of pilgrims to the holy sites and links the southeast of Arafah with the southwest of Mina (Jamarat Area). The train passes through the stations in Arafah, Muzdalifah, and Mina, at three stations for each location. The trip starts from Jamarat Station, passing through Mina and Muzdalifah, to Arafah, at speeds ranging between 80-120 km per hour. It runs without a driver, using automatic operation systems that are controlled by an operation and control center. There are 17 trains; 17 with 12 engines for each. They transport 300 pilgrims per trip. The capacity is 72,000 people per hour. The train can be accessed by ramps, elevators, ordinary and electric stairs, and electronic gates.`,
     target: 'somelink',
-    title: 'Mövenpick Hotel & Residence Hajar Tower Makkah',
-  },
-  {
-    image: elafKindaImg,
-    description:
-      'Elaf Kinda Hotel is located next to the King Abdulaziz Waqf facing the Grand Mosque, between King Abdulaziz Gate and King Fahd Gate, a few steps from the Kaaba, and offers direct access to the Grand Mosque. It features elegant rooms with free Wi-Fi.',
-    target: 'somelink',
-    title: 'Elaf Kinda Hotel',
-  },
-  {
-    image: midanHotelImg,
-    description:
-      'The 5-star Midan Hotel features 2 restaurants, 1 lobby, 1 sports lounge, 1 poolside bar, and a very spacious room with a balcony overlooking the racetrack, as well as free WiFi. This property includes a 24-hour front desk, room service, and currency exchange to the guests.',
-    target: 'somelink',
-    title: 'Midan Hotel',
-  },
-  {
-    image: guesthouseImg,
-    description:
-      'Guest House Hotel is located in Makkah near the central bus station, where guests can easily reach Holy Haram. Free WiFi is available and all units feature a TV with satellite channels and a kitchen equipped with a fridge and washing machine. Each unit has a private bathroom with toiletries Free shower.',
-    target: 'somelink',
-    title: 'Guest House Hotel',
   },
 ];
 
