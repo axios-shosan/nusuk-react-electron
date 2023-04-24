@@ -7,33 +7,16 @@ import tabs from '../../../data/MadinaTabs';
 import MadinaHero from '../../../../../assets/images/madina/madina-banner.png';
 import styles from './styles.module.css';
 import Button from 'renderer/components/Button';
-
+import Iframebtn from 'renderer/components/Iframbtn/Iframbtn';
 function MadinaLayout() {
   return (
     <>
+    <Iframebtn/>
       <Header mainHeading="Madina" />
       <Hero image={MadinaHero} />
       <div className={styles.wrapper}>
         <h1 className={styles.heading}>
-          <Typewriter
-            options={{
-              loop: false,
-              cursor: '',
-              delay: 75,
-            }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString('Al Madina Al Munawara')
-                .callFunction(() => {
-                  console.log('String typed out!');
-                })
-
-                .callFunction(() => {
-                  console.log('All strings were deleted');
-                })
-                .start();
-            }}
-          />
+        Al Madina Al Munawara
         </h1>
         <hr className={styles.divider} />
 

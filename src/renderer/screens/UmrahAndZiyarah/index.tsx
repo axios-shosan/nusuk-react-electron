@@ -9,6 +9,7 @@ export default function UmrahAndZiyarah() {
   //   const navigate = useNavigate();
   return (
     <div className={Classes.container}>
+
       <Footer />
     </div>
   );

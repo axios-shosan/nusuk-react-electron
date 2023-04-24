@@ -62,7 +62,7 @@ a:active {
 }
 
 p {
-  animation: fadeIn ease 2.5s forwards !important;
+  animation: fadeIn ease 2.6s forwards !important;
 }
 
 h1,
@@ -75,17 +75,17 @@ h6 {
   /* color: hsl(0 0% 0% / 0.7); */
   opacity: 0;
   transform: translateY(1rem);
-  animation: fadeInUp ease 1.5s forwards !important;
+  animation: fadeInUp ease 1s forwards !important;
 }
 
 img {
-  animation: fadeIn 2s;
+  animation: fadeIn 2.6s;
 }
 
 @keyframes fadeInUp {
   to {
     opacity: 1;
-    transform: translateY(0);
+    
   }
 }
 
@@ -122,3 +122,45 @@ img {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.fadingEffect {
+  position:absolute;
+  top:0; bottom:0; right:0;
+  width:100%;
+  background:white;
+  -moz-animation: showHide 5s ease-in alternate infinite; /* Firefox */
+  -webkit-animation: showHide 5s ease-in alternate infinite; /* Safari and Chrome */
+  -ms-animation: showHide 5s ease-in alternate infinite; /* IE10 */
+  -o-animation: showHide 5s ease-in alternate infinite; /* Opera */
+  animation: showHide 5s ease-in alternate infinite;
+}
+@-webkit-keyframes showHide { /* Chrome, Safari */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@-moz-keyframes showHide { /* FF */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@-ms-keyframes showHide { /* IE10 */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@-o-keyframes showHide { /* Opera */
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}
+@keyframes showHide {
+  0% {width:100%}
+  40% {width:0%}
+  60% {width:0%;}
+  100% {width:100%;}
+}

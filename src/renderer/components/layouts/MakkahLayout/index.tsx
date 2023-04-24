@@ -7,10 +7,11 @@ import waves from '../../../../Images/Waves.png';
 import tabs from '../../../data/MakkahTabs';
 import styles from './style.module.css';
 import Button from 'renderer/components/Button';
-
+import Iframebtn from 'renderer/components/Iframbtn/Iframbtn';
 function MakkahLayout() {
   return (
     <>
+    <Iframebtn/>
       <Header mainHeading="Makkah" />
       <div className={styles.hero}>
         <img src={waves} alt="waves" className={styles.waves} />
@@ -18,25 +19,8 @@ function MakkahLayout() {
       </div>
       <div className={styles.wrapper}>
         <h1 className={styles.heading}>
-          <Typewriter
-            options={{
-              loop: false,
-              cursor: '',
-              delay: 75,
-            }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString('Holy Site')
-                .callFunction(() => {
-                  console.log('String typed out!');
-                })
-
-                .callFunction(() => {
-                  console.log('All strings were deleted');
-                })
-                .start();
-            }}
-          />
+       
+        Holy Site
         </h1>
         <hr className={styles.divider} />
 

@@ -40,13 +40,7 @@ const carouselData = [
       'The second holiest city in all of the KSA. Learn more about the Medina region here!',
     href: '/madina/accomodation',
   },
-  {
-    img: Logo,
-    alt: 'website',
-    title: 'Frame',
-    description: 'Click here to access the nusuk website Live !',
-    href: '/iframe',
-  },
+ 
 ];
 
 export default function CarouselExplore() {
@@ -128,15 +122,7 @@ export default function CarouselExplore() {
             handleLinkClick(3);
           }}
         />
-        <a
-          className={`${classes.scrollBtn} ${
-            activeSection === 4 ? classes.active : ''
-          }`}
-          href="#slide-4"
-          onClick={() => {
-            handleLinkClick(4);
-          }}
-        />
+       
         {/* <button
           className={`${classes.slideBtn} ${classes.nextBtn}`}
           onClick={() => {

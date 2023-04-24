@@ -14,28 +14,11 @@ function Header({ mainHeading, subHeading }: HeaderProps) {
 
   return (
     <header className={styles.wrapper}>
+    
       <img src={logo} alt="Nusuk logo" className={styles.logo} />
       <div className={styles.headings}>
         <h1>
-          <Typewriter
-            options={{
-              loop: false,
-              cursor: '',
-              delay: 75,
-            }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString(mainHeading)
-                .callFunction(() => {
-                  console.log('String typed out!');
-                })
-
-                .callFunction(() => {
-                  console.log('All strings were deleted');
-                })
-                .start();
-            }}
-          />
+        {mainHeading}
         </h1>
         <p>{subHeading}</p>
       </div>

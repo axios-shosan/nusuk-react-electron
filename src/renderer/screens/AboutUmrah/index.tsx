@@ -19,25 +19,8 @@ const AboutUmrah = () => {
   return (
     <div>
       <h1 className={classes.title}>
-        <Typewriter
-          options={{
-            loop: false,
-            cursor: '',
-            delay: 75,
-          }}
-          onInit={(typewriter) => {
-            typewriter
-              .typeString(data.title)
-              .callFunction(() => {
-                console.log('String typed out!');
-              })
-
-              .callFunction(() => {
-                console.log('All strings were deleted');
-              })
-              .start();
-          }}
-        />
+      {data.title}
+        
       </h1>
       <hr className={classes.divider} />
 

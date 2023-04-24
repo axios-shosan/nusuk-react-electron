@@ -6,10 +6,11 @@ import tabs from '../../../data/UmrahTabs';
 import styles from './style.module.css';
 import UmrahHeroImg from '../../../../../assets/images/Umrah/UmrahHero.png';
 import Button from 'renderer/components/Button';
-
+import Iframebtn from 'renderer/components/Iframbtn/Iframbtn';
 export default function UmrahLayout() {
   return (
     <>
+    <Iframebtn/>
       <Header mainHeading="Umrah & Ziyarah" />
       <Hero image={UmrahHeroImg} />
       <div className={styles.tabsWrapper}>

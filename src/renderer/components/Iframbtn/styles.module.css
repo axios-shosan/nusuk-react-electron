@@ -1,0 +1,20 @@
+.btn{
+
+
+
+outline: none;
+font-size: 1.25em;
+padding: 0.73em 1.6em;
+background-color: #b39164;
+color: white;
+border: none;
+}
+p{
+  padding: 0;
+  transition: none !important;
+}
+.center{
+  position: fixed;
+  bottom: 40px;
+  left: 0px;
+}

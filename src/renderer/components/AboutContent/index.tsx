@@ -53,25 +53,7 @@ export default function AboutContent() {
         return (
           <>
             <h1 className={styles.title}>
-              <Typewriter
-                options={{
-                  loop: false,
-                  cursor: '',
-                  delay: 75,
-                }}
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString(element.title)
-                    .callFunction(() => {
-                      console.log('String typed out!');
-                    })
-
-                    .callFunction(() => {
-                      console.log('All strings were deleted');
-                    })
-                    .start();
-                }}
-              />
+            {element.title}
             </h1>
             <hr className={styles.divider} />
 

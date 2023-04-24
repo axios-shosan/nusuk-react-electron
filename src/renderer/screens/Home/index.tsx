@@ -23,27 +23,8 @@ export default function Home() {
         />
         <img src={Logo} alt="Logo" className={Classes.logo} />
         <div id="para1" className={Classes.title}>
-          <Typewriter
-            options={{
-              loop: false,
-              cursor: '',
-              delay: 50,
-            }}
-            onInit={(typewriter) => {
-              typewriter
-                .typeString(
-                  'Welcome To Nusuk Your Official Guide To makkah and Madina'
-                )
-                .callFunction(() => {
-                  console.log('String typed out!');
-                })
+          <p>        Welcome To Nusuk Your Official Guide To makkah and Madina</p>
 
-                .callFunction(() => {
-                  console.log('All strings were deleted');
-                })
-                .start();
-            }}
-          />
         </div>
         <Button
           extraClasses={`${Classes.homeBtn}`}

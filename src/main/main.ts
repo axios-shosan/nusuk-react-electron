@@ -74,11 +74,12 @@ const createWindow = async () => {
     width: 1080,
     height: 1920,
     autoHideMenuBar: true,
-    resizable: true,
-    fullscreen: false,
+    resizable:false,
+    fullscreen: true,
     icon: getAssetPath('icon.png'),
     webPreferences: {
-      devTools: true,
+      
+      devTools: false,
       preload: app.isPackaged
         ? path.join(__dirname, 'preload.js')
         : path.join(__dirname, '../../.erb/dll/preload.js'),
@@ -89,7 +90,7 @@ const createWindow = async () => {
     if (!mainWindow) {
       throw new Error('"mainWindow" is not defined');
     }
-    mainWindow.webContents.setZoomFactor(0.8);
+    mainWindow.webContents.setZoomFactor(1);
   });
 
   mainWindow.loadURL(resolveHtmlPath('index.html'));

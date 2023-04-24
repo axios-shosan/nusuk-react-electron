@@ -40,15 +40,15 @@ export default function App() {
     setRendered(true);
     if (window.location.href !== '/home') window.location.href = '/home'; // or whatever your homepage would be
   }
-
+ 
   let redirectTimeoutId: number;
-
+  
   return (
     <div
-      onTouchEnd={() => {
-        window.clearTimeout(redirectTimeoutId);
-        redirectTimeoutId = window.setTimeout(redirectToHomepage, 70000);
-      }}
+      // onTouchEnd={() => {
+      //   window.clearTimeout(redirectTimeoutId);
+      //   redirectTimeoutId = window.setTimeout(redirectToHomepage, 70000);
+      // }}
     >
       <Router>
         <Routes>
